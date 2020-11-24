@@ -1,15 +1,19 @@
 import './App.css';
 import React from 'react';
 import Header from './components/Header';
-import Main from './components/Content';
+import Body from './components/Body';
 import Footer from './components/Footer';
+import ParagraphCard from './components/ParagraphCard'
 import logo from './icons/logo.svg';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Body />
+      <Body />
+      <Body />
+      <Body />
       <Footer />
     </div>
 
