@@ -1,15 +1,15 @@
 import './App.css';
 import React from 'react';
 import Header from './components/Header';
-import Main from './components/Content';
 import Footer from './components/Footer';
 import logo from './icons/logo.svg';
+import Content from './components/Content';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Content />
       <Footer />
     </div>
 

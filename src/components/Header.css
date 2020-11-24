@@ -1,7 +1,19 @@
-header {
+.menu__top {
+    display: flex;
+    justify-content: space-between;
     background-color: black;
 }
 
-.menu__top {
-    background-color: black;
+.arrow__left {
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.arrow__right {
+    padding-top: 30px;
+    padding-right: 10px;
+    width: 20px;
+    height: 20px;
 }
