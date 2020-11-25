@@ -8,6 +8,8 @@
     border-color: red;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.28);
 }
 
 .arrow__icon--left {
@@ -15,23 +17,8 @@
     padding-top: 10px;
 }
 
-/*
-
-.arrow__img--left {
-    color: red;
-}
-
-*/
 
 .arrow__icon--right {
     padding-right: 10px;
     padding-top: 10px;
 }
-
-/*
-
-.arrow__img--right {
-    fill: red;
-}
-
-*/

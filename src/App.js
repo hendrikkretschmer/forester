@@ -1,22 +1,30 @@
 import './App.css';
 import React from 'react';
 import Header from './components/Header';
-import Body from './components/Body';
+import HomeStart from './components/HomeStart';
+import Explore from './components/Explore';
+import Treasures from './components/Treasures';
+import Profile from './components/Profile';
 import Footer from './components/Footer';
-import ParagraphCard from './components/ParagraphCard'
-import logo from './icons/logo.svg';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Header />
-      <Body />
-      <Body />
-      <Body />
-      <Body />
+      
+      <Switch>
+      <Route path="/" exact component={HomeStart} />
+      <Route path="/explore" exact component={Explore} />
+      <Route path="/treasures" exact component={Treasures} />
+      <Route path="/profile" exact component={Profile} />
+      </Switch>
+
+      
       <Footer />
     </div>
-
+    </Router>
   );
 }
 
