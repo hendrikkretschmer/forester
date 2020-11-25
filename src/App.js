@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Header from './components/Header';
 import HomeStart from './components/HomeStart';
 import Explore from './components/Explore';
