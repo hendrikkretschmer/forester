@@ -87,10 +87,17 @@ footer {
     text-decoration: none;
 }
 
+.home__link:active {
+    color: #d36d00 !important;
+    text-decoration: none;
+}
+
+/*
 .home__link--active {
     color: #d36d00 !important;
     text-decoration: none;
 }
+*/
 
 /* EXPLORE NAVLINK */
 .explore__link {
@@ -103,10 +110,17 @@ footer {
     text-decoration: none;
 }
 
+.explore__link:active {
+    color: #d36d00 !important;
+    text-decoration: none;
+}
+
+/*
 .explore__link--active {
     color: #d36d00 !important;
     text-decoration: none;
 }
+*/
 
 /* TREASURES NAVLINK */
 .treasures__link {
@@ -119,10 +133,17 @@ footer {
     text-decoration: none;
 }
 
+.treasures__link:active {
+    color: #d36d00 !important;
+    text-decoration: none;
+}
+
+/*
 .treasures__link--active {
     color: #d36d00 !important;
     text-decoration: none;
 }
+*/
 
 /* PROFILE NAVLINK */
 .profile__link {
@@ -135,7 +156,14 @@ footer {
     text-decoration: none;
 }
 
+.profile__link:active {
+    color: #d36d00 !important;
+    text-decoration: none;
+}
+
+/*
 .profile__link--active {
     color: #d36d00 !important;
     text-decoration: none;
 }
+*/
