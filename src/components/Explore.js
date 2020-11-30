@@ -1,12 +1,13 @@
 import React from 'react';
 import './Explore.css';
+import Map from './Map';
 
 
 function Explore() {
 
     return (
         <div>
-            <p>This is the explore page</p>
+            <Map />
         </div>
     )
 }

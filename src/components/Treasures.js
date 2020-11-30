@@ -1,12 +1,12 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './Treasures.css';
-
+import TreasureCard from './TreasureCard';
 
 function Treasures() {
 
  return (
         <div>
-            <p>GET READY TO EXPLORE SOME TREASURES!</p>
+            <TreasureCard />
         </div>
     )
 }

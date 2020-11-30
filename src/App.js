@@ -1,5 +1,4 @@
 import './App.css';
-import React, {useState, useEffect} from 'react';
 import Header from './components/Header';
 import HomeStart from './components/HomeStart';
 import Explore from './components/Explore';
@@ -7,6 +6,8 @@ import Treasures from './components/Treasures';
 import Profile from './components/Profile';
 import Footer from './components/Footer';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Leaflet from 'leaflet';
+
 
 function App() {
   return (
@@ -20,7 +21,6 @@ function App() {
       <Route path="/treasures" exact component={Treasures} />
       <Route path="/profile" exact component={Profile} />
       </Switch>
-
       
       <Footer />
     </div>
