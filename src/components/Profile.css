@@ -1,4 +1,47 @@
 body {
-    background-color: #edd9bc;
+    background-color: #faebd4;
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding-left: 0;
+}
+
+.container__profile--picture {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.profile__picture--wrapper {
+    clip-path: circle();
+}
+
+.container__username--headline2 {
+color: #063a38;
+font-size: 16px;
+}
+
+.container__profile--data {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #063a38;
+    margin: 0;
+    padding: 0;
+}
+
+.profile__data--headline3 {
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.profile__data--item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px;
+
 }
