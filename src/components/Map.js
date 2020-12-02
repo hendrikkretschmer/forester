@@ -1,9 +1,9 @@
 import './Map.css';
 import React, { Component } from 'react';
 import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet'; 
+import L from 'leaflet';
 
-
-{/*import L from 'leaflet';
+/*import L from 'leaflet';
   function GetIcon(_iconSize){
   return L.icon(options {
     iconUrl: require('../icons/location icons/treeicon1.png'),
@@ -11,7 +11,9 @@ import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet';
 
   }
   );
-*/}
+*/
+
+
 
 class Map extends Component {
   state = {
@@ -19,6 +21,7 @@ class Map extends Component {
     lng: 9.993682,
     zoom: 13,
   }
+
 
 
   //Standortabfrage//
@@ -29,13 +32,16 @@ class Map extends Component {
   }
   //Standortabfrage//
 
-  //Marker//
-
-  //Marker//
 
 
   render() {
     const position = [this.state.lat, this.state.lng];
+    const iconPerson = new L.Icon({
+      iconUrl: '/icons/location-icons/treeicon2.png',
+      iconAnchor: [0, 0],
+      popupAnchor: [25, 0],
+      iconSize: [50, 50]
+    });
 
 return (
   <MapContainer className="map" center={position} zoom={this.state.zoom} scrollWheelZoom={false}>
@@ -43,17 +49,12 @@ return (
       url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
     />
 
-    <Marker position={position}>
-    <Popup></Popup>
-
+    <Marker key="1" position={position} icon={iconPerson}>
+      <Popup className="popup__styling">
+        <h3>WOW</h3>
+      </Popup>
 
     </Marker>
-    
-    {/*<Marker position={position}>
-      <Popup>
-        Fischbeker Heide <br /> Plan your woodventure!.
-      </Popup>
-    </Marker>*/}
 
   </MapContainer>
   )

@@ -12,3 +12,9 @@
 .map {
     height: 500px;
 }
+
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background-color: teal !important;
+}
