@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding-left: 10px;
+    padding-left: 0px;
     margin: 0px;
     border: none;
     border-color: red;

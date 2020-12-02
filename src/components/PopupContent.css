@@ -1,0 +1,21 @@
+.popup__content--wrapper {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h4 {
+    padding: 0;
+    margin: 0;
+    color: #063a38;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    color: #063a38;
+    font-family: 'Montserrat', sans-serif;
+}

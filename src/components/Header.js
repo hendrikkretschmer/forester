@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../icons/logo.svg';
-import arrowleft from '../icons/arrow icons/arrow_icon_left_white.svg';
-import arrowright from '../icons/arrow icons/arrow_icon_right_white.svg';
+import arrowleft from '../icons/arrow-icons/arrow_icon_left_white.svg';
+import arrowright from '../icons/arrow-icons/arrow_icon_right_white.svg';
 import './Header.css';
 
 

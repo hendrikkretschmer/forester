@@ -2,6 +2,7 @@ import './Map.css';
 import React, { Component } from 'react';
 import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet'; 
 import L from 'leaflet';
+import PopupContent from './PopupContent';
 
 /*import L from 'leaflet';
   function GetIcon(_iconSize){
@@ -51,7 +52,7 @@ return (
 
     <Marker key="1" position={position} icon={iconPerson}>
       <Popup className="popup__styling">
-        <h3>WOW</h3>
+        <PopupContent />
       </Popup>
 
     </Marker>
