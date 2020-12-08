@@ -74,17 +74,32 @@ footer {
     border: none;
 }
 
+.footer__listitems--home:hover {
+    transform: scale(1);
+}
+.footer__listitems--explore:hover {
+    transform: scale(1);
+}
+.footer__listitems--profile:hover {
+    transform: scale(1);
+}
+.footer__listitems--treasures:hover {
+    transform: scale(1);
+}
+
 /* NAVLINKS NOT ACTIVE & ACTIVE */
 
 /* HOME NAVLINK */
 .home__link {
     color: #063a38 !important;
     text-decoration: none;
+    transition: all .2s ease-in-out;
 }
 
 .home__link:hover {
     color: #faebd4 !important;
     text-decoration: none;
+    transform: scale(1.1);
 }
 
 .home__link:active {
@@ -103,11 +118,13 @@ footer {
 .explore__link {
     color: #063a38 !important;
     text-decoration: none;
+    transition: all .2s ease-in-out;
 }
 
 .explore__link:hover {
     color: #faebd4 !important;
     text-decoration: none;
+    transform: scale(1.1);
 }
 
 .explore__link:active {
@@ -126,11 +143,15 @@ footer {
 .treasures__link {
     color: #063a38 !important;
     text-decoration: none;
+    transition: all .2s ease-in-out;
 }
 
 .treasures__link:hover {
     color: #faebd4 !important;
     text-decoration: none;
+    transform: scale(1.1);
+
+    
 }
 
 .treasures__link:active {
@@ -149,17 +170,21 @@ footer {
 .profile__link {
     color: #063a38 !important;
     text-decoration: none;
+    transition: all .2s ease-in-out;
 }
 
 .profile__link:hover {
     color: #faebd4 !important;
     text-decoration: none;
+    transform: scale(1.1);
 }
 
 .profile__link:active {
     color: #d36d00 !important;
     text-decoration: none;
 }
+
+
 
 /*
 .profile__link--active {
