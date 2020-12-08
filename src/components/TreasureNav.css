@@ -64,6 +64,9 @@ p {
 
 button {
     background-color: #5eb990;
+
+    /*background-image: linear-gradient(to top, #d36d00, #87edbf, #faebd4);*/
+    
     color: #063a38;
     box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5);
     cursor: pointer;
@@ -81,6 +84,7 @@ button {
 
 button:hover{
     transform: scale(1.1);
+    box-shadow: 0 0px 5px rgba(208, 255, 237, 0.952);
 }
 
 .button__row--top {
@@ -120,6 +124,16 @@ button:hover{
     justify-content: space-between;
     flex-direction: column;
     background-color: #faebd4;
+
+    /* 
+    border: solid;
+    border-width: thin;
+    border-color: #063a38;
+    border-color: #faebd4;
+    border-color: #5eb990;
+    */
+    border: none;
+
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -130,30 +144,33 @@ button:hover{
     border-radius: 20px;
     box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5);
 
-    border: none;
-
-    transform: scale(1.1);
-
     opacity: 0.85;
-}
-
-.treasure__card--item:hover {
-    transform: scale(1.1);
 }
 
 .iconheadline {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    /*background-color: #5eb990;*/
-    background-color: #d36d00;
+    background-color: #5eb990;
+    background-color: none;
+    position: relative;
+    /*background-color: #d36d00;*/
+    /*background-color:#063a38;*/
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    border-bottom: solid;
+    border-width: thin;
+    /*border-color: #063a38;*/
+    /*border-color: #faebd4;*/
+    border-color: #5eb990;
+    /*border-color: #5eb990;*/
     padding: 0px;
-    margin-bottom: 10px;
-}
+    margin-bottom: 0px;
+
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5); 
+} 
 
 .eichel__icon {
     display: flex;
@@ -161,6 +178,7 @@ button:hover{
     align-items: center;
     padding-left: 10px;
     padding-top: 5px;
+    margin-bottom: 5px;
 }
 
 .treasure__category--headline {
@@ -169,10 +187,21 @@ button:hover{
     padding-bottom: 2px;
     margin: 0px;
     color: #063a38;
+    /*color: #5eb990;*/
     /*color: #faebd4;*/
     font-weight: 550;
     letter-spacing: 0.1em;
     font-size: 16px;
+}
+
+/* TREASURE FOTO FÜR PILZE ETC: ALLE KATEGORIEN */
+
+.treasure_image {
+    background-image:url(../images/Treasure_image.jpg);
+    width: 331px;
+    height: 150px;
+    margin-left: 0x;
+    margin-bottom: 10px;
 }
 
 .treasure__card--bottom {
@@ -215,15 +244,3 @@ button:hover{
 }
 
 
-.iconheadline {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    background-color: #5eb990;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    padding: 0px;
-    margin-bottom: 10px;
-}
