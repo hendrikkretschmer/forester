@@ -47,7 +47,7 @@ p {
     font-size: 12px;
     color: #063a38;
     padding-bottom: 3px;
-    padding-left: 10px;
+    padding-left: 15px;
     transition: all .2s ease-in-out;
 }
 
@@ -66,7 +66,7 @@ button {
     background-color: #5eb990;
     color: #063a38;
     box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5);
-
+    cursor: pointer;
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -141,11 +141,38 @@ button:hover{
     transform: scale(1.1);
 }
 
+.iconheadline {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    /*background-color: #5eb990;*/
+    background-color: #d36d00;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
 
-h3 {
-    padding: 10px;
+.eichel__icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.treasure__category--headline {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 2px;
     margin: 0px;
     color: #063a38;
+    /*color: #faebd4;*/
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    font-size: 16px;
 }
 
 .treasure__card--bottom {
@@ -153,19 +180,19 @@ h3 {
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: row;
-    background-color: #5eb990;
+    background-color: none;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-top: 10px;
 
     border: none;
 
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 
     text-align: center;
 }
@@ -187,16 +214,16 @@ h3 {
     transform: scale(1.1);
 }
 
-.eichel__icon {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 10px;
-    padding-top: 10px;
-}
 
 .iconheadline {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+    background-color: #5eb990;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
 }

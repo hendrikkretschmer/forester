@@ -32,31 +32,31 @@ function TreasureNav() {
       <div className="button__container">
         <div className="button__row--top">
           <button onClick={() => clickMe('Pilze')} className="Pilze">
-            <img src={treasureitem} width="40" height="40" alt="TreasureIcon" />
+            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
           </button>
           <button onClick={() => clickMe('Tiere')} className="Tiere">
-            <img src={treasureitem} width="40" height="40" alt="TreasureIcon" />
+            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
           </button>
           <button onClick={() => clickMe('Bäume')} className="Bäume">
-            <img src={treasureitem} width="40" height="40" alt="TreasureIcon" />
+            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
           </button>
           <button onClick={() => clickMe('Kräuter')} className="Kräuter">
-            <img src={treasureitem} width="40" height="40" alt="TreasureIcon" />
+            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
           </button>
         </div>
 
         <div className="button__row--bottom">
           <button onClick={() => clickMe('Pflanzen')} className="Pflanzen">
-            <img src={treasureitem} width="40" height="40" alt="TreasureIcon" />
+            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
           </button>
           <button onClick={() => clickMe('Snacks')} className="Snacks">
-            <img src={treasureitem} width="40" height="40" alt="TreasureIcon" />
+            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
           </button>
           <button onClick={() => clickMe('Gewässer')} className="Gewässer">
-            <img src={treasureitem} width="40" height="40" alt="TreasureIcon" />
+            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
           </button>
           <button onClick={() => clickMe('Moore')} className="Moore">
-            <img src={treasureitem} width="40" height="40" alt="TreasureIcon" />
+            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
           </button>
         </div>
       </div>
@@ -73,12 +73,12 @@ function TreasureNav() {
               height="20"
               alt="treasureicon"
             />
-            <h3 key={treasure.id}>{treasure.name}</h3>
+            <p className="treasure__category--headline" key={treasure.id}>{treasure.name}</p>
             </div>
             <p>{treasure.Merkmale}</p>
 
             <div className="treasure__card--bottom" key={treasure.id}>
-              <p>{treasure.location}</p>
+
 
               <div className="location__icon--wrapper">
                 <img
