@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './TreasureNav.css';
 import treasureicon from '../icons/map-icons-beige/svg/004-treasure-map.svg';
 import treasureitem from '../icons/map-icons-beige/svg/005-treasure-map-1.svg';
+import exploreicon from '../icons/explore_icon_25x25.svg'
 import TreasureData from './TreasureData';
 
 function TreasureNav() {
@@ -80,7 +81,12 @@ function TreasureNav() {
                     </h3>
                 
                     <div className="treasure__card--bottom" key={treasure.id}>
-                        <p>{treasure.location}</p>
+                        <p>
+                            {treasure.location}
+                        </p>
+                        <div className="location__icon--wrapper">
+                            <img className="location__icon" src={exploreicon} width="25" height="25" alt="locationicon" />
+                        </div>
                     </div>
 
                 </div>
