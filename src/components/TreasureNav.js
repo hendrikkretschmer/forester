@@ -29,7 +29,7 @@ function TreasureNav() {
             
             
             <p className="subline__container">
-            Explore the woods! Click on any item to explore treasures!</p>
+            Click on any item to explore treasures!</p>
             
             </div>
 

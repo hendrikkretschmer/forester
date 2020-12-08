@@ -1,4 +1,58 @@
 body {
-    background-color: #faebd4;
-    font-family: 'Montserrat', sans-serif;
+height: 600px;
+background-image: url('../images/forest_from_above_farbe.jpg');
+}
+
+/*.background__layer {
+    background-color: #002826;
+    opacity: 0.7;
+    height: 600px;
+}
+*/
+
+.content__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome__image--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5eb990;
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.1);
+
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+
+    opacity: 0.6;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.welcome__text {
+    border: none;
+    border-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.welcome__title {
+    color:#faebd4;
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.1);
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    color: #faebd4;
+    text-align: center;
 }
