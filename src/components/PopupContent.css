@@ -6,16 +6,28 @@
     flex-direction: column;
 }
 
+.popup__image--wrapper {
+    width: 150px;
+    height: 100px;
+    /*background-color: #063a38;*/
+    margin-bottom: 0;
+}
+
 h4 {
     padding: 0;
-    margin: 0;
+    margin-bottom: 5px;
     color: #063a38;
     font-family: 'Montserrat', sans-serif;
 }
 
-p {
-    padding: 0;
-    margin: 0;
+.popup__paragraph {
+    padding: 0px;
+    margin-top: 0px;
     color: #063a38;
     font-family: 'Montserrat', sans-serif;
+    width: 150px;
+}
+
+.leaflet-popup-content p {
+    margin-top: 5px !important;
 }

@@ -4,17 +4,6 @@ import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet';
 import L from 'leaflet';
 import PopupContent from './PopupContent';
 
-/*import L from 'leaflet';
-  function GetIcon(_iconSize){
-  return L.icon(options {
-    iconUrl: require('../icons/location icons/treeicon1.png'),
-    iconSize: [20]
-
-  }
-  );
-*/
-
-
 
 class Map extends Component {
   state = {
@@ -38,7 +27,7 @@ class Map extends Component {
   render() {
     const position = [this.state.lat, this.state.lng];
     const iconPerson = new L.Icon({
-      iconUrl: '/icons/location-icons/treeicon2.png',
+      iconUrl: '/icons/location-icons/location_icon_green.svg',
       iconAnchor: [0, 0],
       popupAnchor: [25, 0],
       iconSize: [50, 50]

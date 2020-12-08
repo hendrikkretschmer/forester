@@ -1,12 +1,12 @@
 import React from 'react';
 import './Treasures.css';
-import TreasureCard from './TreasureCard';
+import TreasureNav from './TreasureNav';
 
 function Treasures() {
 
  return (
         <div>
-            <TreasureCard />
+            <TreasureNav />
         </div>
     )
 }
