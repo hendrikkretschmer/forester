@@ -17,26 +17,59 @@ function TreasureNav() {
 
     return(
         <div>
-            <div>
+
+            <div className="headline__container">
+            
+                <h1>FOREST TREASURES</h1>
+
+                <div className="treasure__image">
                 <img src={profileicon} width="50" height="50" alt="Profileicon" />
+                </div>
+                
+                <h2>Explore the woods!</h2>
+            
+            
+            
+            <p className="subline__container">
+            Click on any treasure item to explore satisfying things to find in the woods!</p>
+            
             </div>
 
-            <h1>TREASURES TO EXPLORE</h1>
-            <h2>Hunt for Treasures in the woods!</h2>
-            <p>Wanna know where to find forest treasures nearby?
-            Click on any treasure item to explore satisfying things to find in the woods!</p>
-            <button onClick={() => clickMe('Pilze')} className="Pilze">Pilze</button>
-            <button onClick={() => clickMe('Tiere')} className="Tiere">Tiere</button>
-            <button onClick={() => clickMe('Bäume')} className="Bäume">Bäume</button>
-            <button onClick={() => clickMe('Kräuter')} className="Kräuter">Kräuter</button>
-            <button onClick={() => clickMe('Pflanzen')} className="Pflanzen">Pflanzen</button>
+            <div className="button__container">
 
-            <div>
+                <div className="button__row--top">
+                <button onClick={() => clickMe('Pilze')} className="Pilze">Pilze</button>
+                <button onClick={() => clickMe('Tiere')} className="Tiere">Tiere</button>
+                <button onClick={() => clickMe('Pilze')} className="Bäume">Bäume</button>
+                <button onClick={() => clickMe('Pilze')} className="Kräuter">Kräuter</button>
+                </div>
+                
+                
+                <div className="button__row--bottom">
+                <button onClick={() => clickMe('Pilze')} className="Pflanzen">Pflanzen</button>
+                <button onClick={() => clickMe('Pilze')} className="Snacks">Snacks</button>
+                <button onClick={() => clickMe('Pilze')} className="Gewässer">Gewässer</button>
+                <button onClick={() => clickMe('Pilze')} className="Moore">Moore</button>
+                </div>
+            
+            </div>
+            
+            <div className="treasure__container">
                 {treasures.map(treasure => (
-                    <p key={treasure.id}>
-                        {treasure.name}<br/>
-                        <small>{treasure.Merkmale}</small>
-                    </p>
+                    
+                    <div className="treasure__card--item"><h3 key={treasure.id}>
+
+                        {treasure.name}<h3/>
+                    
+                    <p>{treasure.Merkmale}</p>
+                    </h3>
+                
+                    <div className="treasure__card--bottom" key={treasure.id}>
+                        <p>{treasure.location}</p>
+                    </div>
+
+                </div>
+
                 ))}
             </div>
         </div>

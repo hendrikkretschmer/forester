@@ -5,7 +5,8 @@ const TreasureData = [
         name: "Steinpilz",
         Merkmale: "3 - 6cm breiter mit Schuppen übersäter Hut.",
         Hutfarbe: "Gelb bis orange.",
-        Stielfarbe: "Gelb."
+        Stielfarbe: "Gelb.",
+        location: "location"
     },
     {
         id: 2,
@@ -13,7 +14,8 @@ const TreasureData = [
         name: "Fliegenpilz",
         Merkmale: "3 - 6cm breiter mit Schuppen übersäter Hut.",
         Hutfarbe: "Gelb bis orange.",
-        Stielfarbe: "Gelb."
+        Stielfarbe: "Gelb.",
+        location: "location"
     },
     {
         id: 3,
@@ -21,7 +23,8 @@ const TreasureData = [
         name: "Pfifferling",
         Merkmale: "3 - 6cm breiter mit Schuppen übersäter Hut.",
         Hutfarbe: "Gelb bis orange.",
-        Stielfarbe: "Gelb."
+        Stielfarbe: "Gelb.",
+        location: "location"
     },
     {
         id: 4,
@@ -29,7 +32,8 @@ const TreasureData = [
         name: "Steinpilz",
         Merkmale: "3 - 6cm breiter mit Schuppen übersäter Hut.",
         Hutfarbe: "Gelb bis orange.",
-        Stielfarbe: "Gelb."
+        Stielfarbe: "Gelb.",
+        location: "location"
     },
     {
         id: 5,
@@ -37,7 +41,8 @@ const TreasureData = [
         name: "Schwan",
         Merkmale: "Der gemeine Waldschwan ist ein possierliches Tierchen",
         Hutfarbe: "Trägt für gewöhnlich Sonntags einen Förster-Hut",
-        Stielfarbe: "Weiß für gewöhnlich"
+        Stielfarbe: "Weiß für gewöhnlich",
+        location: "location"
     }
 ]
 
