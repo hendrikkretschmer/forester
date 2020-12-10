@@ -6,7 +6,8 @@ const TreasureData = [
         Merkmale: "3 - 6cm breiter mit Schuppen übersäter Hut.",
         Hutfarbe: "Gelb bis orange.",
         Stielfarbe: "Gelb.",
-        location: "location"
+        location: "location",
+        img: '../images/person1.jpg',
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ const TreasureData = [
         Merkmale: "3 - 6cm breiter mit Schuppen übersäter Hut.",
         Hutfarbe: "Gelb bis orange.",
         Stielfarbe: "Gelb.",
-        location: "location"
+        location: "location",
+        img: '../images/person2.jpg',
     },
     {
         id: 3,
@@ -24,7 +26,8 @@ const TreasureData = [
         Merkmale: "3 - 6cm breiter mit Schuppen übersäter Hut.",
         Hutfarbe: "Gelb bis orange.",
         Stielfarbe: "Gelb.",
-        location: "location"
+        location: "location",
+        img: '../images/person3.jpg',
     },
     {
         id: 4,
@@ -33,7 +36,8 @@ const TreasureData = [
         Merkmale: "3 - 6cm breiter mit Schuppen übersäter Hut.",
         Hutfarbe: "Gelb bis orange.",
         Stielfarbe: "Gelb.",
-        location: "location"
+        location: "location",
+        img: '../images/baum1.jpg',
     },
     {
         id: 5,
@@ -42,7 +46,8 @@ const TreasureData = [
         Merkmale: "Der gemeine Waldschwan ist ein possierliches Tierchen",
         Hutfarbe: "Trägt für gewöhnlich Sonntags einen Förster-Hut",
         Stielfarbe: "Weiß für gewöhnlich",
-        location: "location"
+        location: "location",
+        img: '../images/wald1.jpg',
     },
     {
         id: 6,
@@ -51,7 +56,8 @@ const TreasureData = [
         Merkmale: "Bambi is one the run",
         Hutfarbe: "Rekitzchen",
         Stielfarbe: "Weiß für gewöhnlich",
-        location: "location"
+        location: "location",
+        img: '../images/wald2.jpg',
     },
     {
         id: 7,
@@ -60,7 +66,8 @@ const TreasureData = [
         Merkmale: "Hirsch is one the run",
         Hutfarbe: "Der röhrende Hirsch",
         Stielfarbe: "Weiß für gewöhnlich",
-        location: "location"
+        location: "location",
+        img: '../images/wald3.jpg',
     },
     {
         id: 8,
@@ -69,7 +76,8 @@ const TreasureData = [
         Merkmale: "Wildschwein is one the run",
         Hutfarbe: "Der röhrende Hirsch",
         Stielfarbe: "Weiß für gewöhnlich",
-        location: "location"
+        location: "location",
+        img: '../images/wald4.jpg',
     },
     {
         id: 9,
@@ -77,7 +85,8 @@ const TreasureData = [
         name: "Eiche",
         Merkmale: "Baum Rinde Größe",
         Hutfarbe: "Baumbraun",
-        location: "location"
+        location: "location",
+        img: '../images/wald5.jpg',
     },
     {
         id: 10,
@@ -85,7 +94,8 @@ const TreasureData = [
         name: "Buche",
         Merkmale: "Baum Rinde Größe",
         Hutfarbe: "Baumbraun",
-        location: "location"
+        location: "location",
+        img: '../images/wald6.jpg',
     },
     {
         id: 11,
@@ -93,7 +103,8 @@ const TreasureData = [
         name: "Birke",
         Merkmale: "Baum Rinde Größe",
         Hutfarbe: "Baumbraun",
-        location: "location"
+        location: "location",
+        img: '../images/wald7.jpg',
     },
     {
         id: 12,
@@ -101,111 +112,128 @@ const TreasureData = [
         name: "Kiefer",
         Merkmale: "Baum Rinde Größe",
         Hutfarbe: "Baumbraun",
-        location: "location"
+        location: "location",
+        img: '../images/heide1.jpg',
     },
     {
         id: 13,
         treasure: "Kräuter",
         name: "Bärlauch",
         Merkmale: "Baum Rinde Größe",
-        location: "location"
+        location: "location",
+        img: '../images/heide2.jpg',
     },
     {
         id: 14,
         treasure: "Kräuter",
         name: "Salbei",
         Merkmale: "Baum Rinde Größe",
-        location: "location"
+        location: "location",
+        img: '../images/heide3.jpg',
     },
     {
         id: 15,
         treasure: "Kräuter",
         name: "Sauerampfer",
         Merkmale: "Baum Rinde Größe",
-        location: "location"
+        location: "location",
+        img: '../images/tiere1.jpg',
     },
     {
         id: 16,
         treasure: "Kräuter",
         name: "Rosmarin",
         Merkmale: "Baum Rinde Größe",
-        location: "location"
+        location: "location",
+        img: '../images/tiere2.jpg',
     },
     {
         id: 17,
         treasure: "Moore",
         name: "Wittmoor",
         Merkmale: "Baum Rinde Größe",
-        location: "location"
+        location: "location",
+        img: '../images/tiere2.jpg',
     },
     {
         id: 18,
         treasure: "Moore",
         name: "Schnaakenmoor",
         Merkmale: "Baum Rinde Größe",
-        location: "location"
+        location: "location",
+        img: '../images/tiere2.jpg',
     },
     {
         id: 19,
         treasure: "Moore",
         name: "Schnaakenmoor",
         Merkmale: "Baum Rinde Größe",
-        location: "location"
+        location: "location",
+        img: '../images/tiere2.jpg',
     },
     {
         id: 20,
         treasure: "Moore",
         name: "Schnaakenmoor",
         Merkmale: "Baum Rinde Größe",
-        location: "location"
+        location: "location",
+        img: '../images/tiere2.jpg',
     },
     {
         id: 21,
         treasure: "Snacks",
         name: "Bucheckern",
-        location: "location"
+        location: "location",
+        img: '../images/tiere2.jpg',
     },
     {
         id: 22,
         treasure: "Snacks",
         name: "Bucheckern",
-        location: "location"
+        location: "location",
+        img: '../images/tiere2.jpg',
     },
     {
         id: 23,
         treasure: "Snacks",
         name: "Bucheckern",
-        location: "location"
+        location: "location",
+        img: '../images/tiere2.jpg',
     },
     {
         id: 24,
         treasure: "Snacks",
         name: "Bucheckern",
-        location: "location"
+        location: "location",
+        img: '../images/tiere2.jpg',
     },
     {
         id: 25,
         treasure: "Gewässer",
         name: "Tümpel",
-        location: "location"
+        location: "location",
+        img: '../images/tiere2.jpg',
     },
     {
         id: 26,
         treasure: "Gewässer",
         name: "Tümpel",
-        location: "location"
+        location: "location",
+        img: '../images/tiere2.jpg',
     },
     {
         id: 27,
         treasure: "Gewässer",
         name: "Tümpel",
-        location: "location"
+        location: "location",
+        img: '../images/tiere2.jpg',
     },
     {
         id: 28,
         treasure: "Gewässer",
         name: "Tümpel",
-        location: "location"
+        location: "location",
+        img: '../images/tiere2.jpg',
     },
 ]
 

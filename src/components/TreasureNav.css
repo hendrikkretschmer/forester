@@ -75,8 +75,8 @@ button {
     color: #063a38;
     box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5);
     cursor: pointer;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     border: none;
     margin: 0px;
@@ -117,7 +117,7 @@ button:hover{
     margin-left: 35px;
     margin-right: 35px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 
     border-radius: 20px;
 
@@ -202,7 +202,7 @@ button:hover{
 /* TREASURE FOTO FÜR PILZE ETC: ALLE KATEGORIEN */
 
 .treasure_image {
-    background-image:url(../images/Treasure_image.jpg);
+    /*background-image:url(../images/Treasure_image.jpg);*/
     width: 331px;
     height: 150px;
     margin-left: 0x;

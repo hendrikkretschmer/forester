@@ -87,9 +87,15 @@ function TreasureNav() {
             <p className="treasure__category--headline" key={treasure.id}>{treasure.name}</p>
             </div>
             
-            <div className="treasure_image"></div>
+            <div className="treasure_image">
+              <img src={treasure.img} width="275" height="150"/>
+            </div>
             
             <p>{treasure.Merkmale}</p>
+
+            <p>{treasure.name}</p>
+
+            <p>{treasure.location}</p>
 
             <div className="treasure__card--bottom" key={treasure.id}>
 
