@@ -13,6 +13,10 @@ function Home() {
         <div className="slider__component">
             <Slider />
         </div>
+
+        <div className="content__under--slider">
+            <input type="text" />
+        </div>
             {/*<div className="content__wrapper">
             
                 <div className="welcome__image--wrapper">

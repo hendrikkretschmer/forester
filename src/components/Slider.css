@@ -1,3 +1,9 @@
+.content__card--wrapper {
+    border: none;
+    height: 375px;
+}
+
+
 /* GESAMTER BUTTON CONTAINER, DER LINKS UND RECHTS WRAPPED */
 
 .allbuttons__container {
@@ -13,30 +19,32 @@
 }
 
 /* LINKER BUTTON PFEIL CONTAINER */
-.button__left {
+.buttonbox__left {
     border: none;
-    width: 30px;
-    height: 30px;
-    margin-right: 270px;
+    width: 20px;
+    height: 20px;
+    margin-right: 290px;
 }
 
 .button__icon--left{
     border: none;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
+    padding-right: 3px;
 }
 
 
 /* RECHTER BUTTON PFEIL CONTAINER */
-.button__right {
+.buttonbox__right {
     border: none;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 .button__icon--right {
     border: none;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
+    padding-left: 3px;
 }
 
 
@@ -53,8 +61,12 @@
 /* DER CONTENT, DER ÜBER DIE FORESTDATA AUSGEGEBEN WIRD */
 
 .forest__container {
-    border: solid;
+    border: none;
     border-color: yellow;
+    margin: 0px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
 }
 
 .main__image {
@@ -63,22 +75,35 @@
     height:250px;
 }
 
+/* WRAPPED DIE HEADLINE UND DEN TEXT */
+
 .title__wrapper {
     border: none;
+    position: absolute;
+    margin-top: 175px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .forest__title {
-    border: none;
-    position: absolute;
-    z-index: 10;
-    padding-bottom: 45px;
-}
-
-.text__wrapper {
-    border: none;
+    color: #faebd4;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
 
 .forest__text {
-    border: none;
-    color: white;
+    color: #faebd4;
+    padding-left: 10px;
+    margin-top: 5px;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
 }

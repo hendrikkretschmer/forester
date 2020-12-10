@@ -39,11 +39,11 @@ console.log(index)
         
           <div className="allbuttons__container">
             
-                  <button onClick={slideLeft} className="button__left">
+                  <button onClick={slideLeft} className="buttonbox__left">
                     <img src={arrow_left} alt="arrow_left" className="button__icon--left"/>
                   </button>
 
-                  <button onClick={slideRight} className="button__right">
+                  <button onClick={slideRight} className="buttonbox__right">
                     <img src={arrow_right} alt="arrow_right" className="button__icon--right"/>
                   </button>
           
@@ -54,10 +54,10 @@ console.log(index)
           { forest[index] && (
             <div className="forest__container">
               <img className="main__image" src={forest[index].img} alt="image_1"/>
+              
               <div className="title__wrapper">
-                <h1 className="forest__title">{forest[index].name}</h1>
-              </div>
-              <div className="text__wrapper">
+                <h3 className="forest__title">{forest[index].name}</h3>
+              
                 <p className="forest__text">{forest[index].text}</p>
               </div>
               {/*<h2>Index: {index}</h2>*/}
