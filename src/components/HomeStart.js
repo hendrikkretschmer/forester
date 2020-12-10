@@ -15,7 +15,8 @@ function Home() {
         </div>
 
         <div className="content__under--slider">
-            <input type="text" />
+            <h3 className="input__title">Dein Startpunkt!</h3>
+            <input type="text" placeholder="Enter your location" className="input__location"/>
         </div>
             {/*<div className="content__wrapper">
             
