@@ -68,7 +68,9 @@ p {
 }
 
 button {
-    background-color: #5eb990;
+    /*background-color: #5eb990;*/
+    background-color: #faebd4;
+    /*background-color: #ff9451;*/
 
     /*background-image: linear-gradient(to top, #d36d00, #87edbf, #faebd4);*/
     
