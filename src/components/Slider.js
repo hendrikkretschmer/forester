@@ -37,7 +37,7 @@ console.log(index)
       
       <div className="content__card--wrapper">
         
-          <div className="button__container">
+          <div className="allbuttons__container">
             
                   <button onClick={slideLeft} className="button__left">
                     <img src={arrow_left} alt="arrow_left" className="button__icon--left"/>
@@ -53,7 +53,7 @@ console.log(index)
 
           { forest[index] && (
             <div className="forest__container">
-              <img className="main__image" src={forest[index].img} alt="image_1" width="200" height="200"/>
+              <img className="main__image" src={forest[index].img} alt="image_1"/>
               <div className="title__wrapper">
                 <h1 className="forest__title">{forest[index].name}</h1>
               </div>

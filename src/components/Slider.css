@@ -1,0 +1,84 @@
+/* GESAMTER BUTTON CONTAINER, DER LINKS UND RECHTS WRAPPED */
+
+.allbuttons__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+    margin-top: 120px;
+    z-index: 100;
+}
+
+/* LINKER BUTTON PFEIL CONTAINER */
+.button__left {
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin-right: 270px;
+}
+
+.button__icon--left{
+    border: none;
+    width: 15px;
+    height: 15px;
+}
+
+
+/* RECHTER BUTTON PFEIL CONTAINER */
+.button__right {
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+.button__icon--right {
+    border: none;
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* DER CONTENT, DER ÜBER DIE FORESTDATA AUSGEGEBEN WIRD */
+
+.forest__container {
+    border: solid;
+    border-color: yellow;
+}
+
+.main__image {
+    border: none;
+    width:375px;
+    height:250px;
+}
+
+.title__wrapper {
+    border: none;
+}
+
+.forest__title {
+    border: none;
+    position: absolute;
+    z-index: 10;
+    padding-bottom: 45px;
+}
+
+.text__wrapper {
+    border: none;
+}
+
+.forest__text {
+    border: none;
+    color: white;
+}
