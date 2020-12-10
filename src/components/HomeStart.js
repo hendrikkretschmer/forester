@@ -1,7 +1,6 @@
 import React from 'react';
 import './HomeStart.css';
-import profileicon from '../icons/profile_icon_25x25.svg';
-
+import Slider from './Slider';
 
 function Home() {
 
@@ -10,8 +9,11 @@ function Home() {
         
         <div className="background__layer">
 
-        
-            <div className="content__wrapper">
+
+        <div className="slider__component">
+            <Slider />
+        </div>
+            {/*<div className="content__wrapper">
             
                 <div className="welcome__image--wrapper">
                     
@@ -32,7 +34,7 @@ function Home() {
                     </p>
                 </div>
             
-            </div>
+            </div>*/}
 
         </div>
         

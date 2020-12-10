@@ -10,7 +10,7 @@ function TreasureNav() {
   const [treasures, setTreasures] = useState([]);
 
   useEffect(() => {
-    setTreasures(TreasureData);
+   // setTreasures(TreasureData);
   }, []); // dependency array: empty array -> run once
 
   function clickMe(category) {
