@@ -1,11 +1,9 @@
-body {
-background-image: url('../images/forest_from_above_farbe.jpg');
-}
+
 
 /* LIEGT ÜBER ALLEM DRÜBER!*/
-.background__layer {
+/*.background__layer {
     height: 600px;
-}
+}*/
 
 /*
 .content__wrapper {
@@ -71,6 +69,8 @@ background-image: url('../images/forest_from_above_farbe.jpg');
     align-items: center;
     flex-direction: column;
     border: none;
+    border-color: red;
+    height: 262px;
 }
 
 .input__title {
@@ -84,6 +84,7 @@ background-image: url('../images/forest_from_above_farbe.jpg');
     border: none;
     border-radius: 20px;
     color: #063a38;
+    margin-bottom: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:10px;

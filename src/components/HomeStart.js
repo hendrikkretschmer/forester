@@ -6,9 +6,6 @@ function Home() {
 
     return (
         <div className=".background__image">
-        
-        <div className="background__layer">
-
 
         <div className="slider__component">
             <Slider />
@@ -43,7 +40,6 @@ function Home() {
 
         </div>
         
-        </div>
     )
 }
 

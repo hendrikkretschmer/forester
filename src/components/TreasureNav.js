@@ -18,8 +18,9 @@ function TreasureNav() {
   }
 
   return (
-    <div>
+    <div className="treasure__wrapper--top">
       <div className="headline__container">
+        
         <div className="treasure__image">
           <img src={treasureicon} width="160" height="160" alt="TreasureIcon" />
         </div>
