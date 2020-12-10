@@ -1,6 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import './TreasureNav.css';
 import treasureicon from '../icons/map-icons-beige/svg/004-treasure-map.svg';
+
+import animalicon from '../icons/treasureicons/animalicon2.svg';
+import treeicon from '../icons/treasureicons/treeicon5.svg';
+import snackicon from '../icons/treasureicons/snackicon1.svg';
+import wassericon from '../icons/treasureicons/wassericon4.svg';
+import pilzicon from '../icons/treasureicons/pilzicon2.svg';
+import herbsicon from '../icons/treasureicons/herbsicon1.svg';
+import planticon from '../icons/treasureicons/herbsicon2.svg';
+import mooricon from '../icons/treasureicons/watericon2.svg';
+
 import treasuresicon from '../icons/treasure_icon_25x25.svg';
 import treasureitem from '../icons/map-icons-beige/svg/005-treasure-map-1.svg';
 import exploreicon from '../icons/explore_icon_25x25.svg';
@@ -33,31 +43,31 @@ function TreasureNav() {
       <div className="button__container">
         <div className="button__row--top">
           <button onClick={() => clickMe('Pilze')} className="Pilze">
-            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
+            <img src={pilzicon} width="40" height="40" alt="TreasureIcon" />
           </button>
           <button onClick={() => clickMe('Tiere')} className="Tiere">
-            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
+            <img src={animalicon} width="40" height="40" alt="TreasureIcon" />
           </button>
           <button onClick={() => clickMe('Bäume')} className="Bäume">
-            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
+            <img src={treeicon} width="40" height="40" alt="TreasureIcon" />
           </button>
           <button onClick={() => clickMe('Kräuter')} className="Kräuter">
-            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
+            <img src={herbsicon} width="40" height="40" alt="TreasureIcon" />
           </button>
         </div>
 
         <div className="button__row--bottom">
           <button onClick={() => clickMe('Pflanzen')} className="Pflanzen">
-            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
+            <img src={planticon} width="40" height="40" alt="TreasureIcon" />
           </button>
           <button onClick={() => clickMe('Snacks')} className="Snacks">
-            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
+            <img src={snackicon} width="40" height="40" alt="TreasureIcon" />
           </button>
           <button onClick={() => clickMe('Gewässer')} className="Gewässer">
-            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
+            <img src={wassericon} width="40" height="40" alt="TreasureIcon" />
           </button>
           <button onClick={() => clickMe('Moore')} className="Moore">
-            <img src={treasuresicon} width="40" height="40" alt="TreasureIcon" />
+            <img src={mooricon} width="40" height="40" alt="TreasureIcon" />
           </button>
         </div>
       </div>
