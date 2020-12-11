@@ -94,6 +94,18 @@ button:hover{
     box-shadow: 0 0px 5px rgba(208, 255, 237, 0.952);
 }
 
+button:active{
+    background-color: #d36d00;
+}
+
+button:visited{
+    background-color: #d36d00;
+}
+
+button:focus{
+    background-color: #d36d00;
+}
+
 .button__row--top {
     display: flex;
     justify-content: space-between;

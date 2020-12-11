@@ -3,16 +3,16 @@ import './PopupContent.css';
 import forest_fog2 from '../images/forest_fog2.jpg';
 
 
-function PopupContent() {
+function PopupContent({forest}) {
 
     return (
         <div className="popup__content--wrapper">
-            <h4>Fischbeker Heide</h4>
+            <h4>{forest.name}</h4>
             <div className="popup__image--wrapper">
-            <img src={forest_fog2} width="150" height="100" alt="Homeicon" />
+            <img src={forest.img} width="150" height="100" alt="Homeicon" />
             </div>
             <p className="popup__paragraph">
-            Plan your woodventure! Explore satifying Forest Treasures!
+            {forest.text}
             </p>
         </div>
     )

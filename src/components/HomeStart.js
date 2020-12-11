@@ -15,6 +15,7 @@ function Home() {
             <h3 className="input__title">Dein Startpunkt!</h3>
             <input type="text" placeholder="Enter your location" className="input__location"/>
         </div>
+        
             {/*<div className="content__wrapper">
             
                 <div className="welcome__image--wrapper">

@@ -30,7 +30,7 @@ class Map extends Component {
       iconUrl: '/icons/location-icons/location_icon_green.svg',
       iconAnchor: [0, 0],
       popupAnchor: [25, 0],
-      iconSize: [50, 50]
+      iconSize: [35, 35]
     });
 
 return (
@@ -39,12 +39,17 @@ return (
       url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
     />
 
-    <Marker key="1" position={position} icon={iconPerson}>
+    {this.props.forests.map((forest, index) => (
+      <Marker key={index} position={[forest.position.latitude, forest.position.longitude]} icon={iconPerson}>
       <Popup className="popup__styling">
-        <PopupContent />
+        <PopupContent forest={forest}/>
       </Popup>
 
     </Marker>
+    )
+    )
+    }
+      
 
   </MapContainer>
   )
