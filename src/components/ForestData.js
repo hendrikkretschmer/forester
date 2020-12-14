@@ -4,6 +4,7 @@ const forestData = [
         forest: "forest",
         name: "Welcome! Explore the woods!",
         text: "Start your woodventure with forester and explore hidden treasures now!",
+        textlong: "Mensch und Natur miteinander verbinden. Das ist der Kern von FORESTER. Die App für urbane Naturliebhaber und alle, die ihre Sehnsucht nach Natur stillen wollen. Ob mitten in der Stadt oder im naheliegenden Grüngürtel. FORESTER filtert Naturerholungsgebiete und Wälder in der Umgebung. Hier gibt es viel zu entdecken! Forester kennt die Wälder, wie die Tanne den Wald. FORESTER zeigt dir ganz genau, wo Du die besten Spots für deine Aus- zeit in der Natur finden kannst und lüftet geheimnisvolle Waldschätze, die Du auf deinem persönlichen Woodventure entdecken kannst. Denn Wald ist nicht gleich Wald.",
         img: '../images/person1.jpg',
         position: {latitude: 53.5510846, longitude: 9.9936819}
     },{
@@ -11,6 +12,7 @@ const forestData = [
         forest: "forest",
         name: "Fischbeker Heide",
         text: "Hier sämtliche Informationen, die den Wald beschreiben",
+        textlong: "Mensch und Natur miteinander verbinden. Das ist der Kern von FORESTER. Die App für urbane Naturliebhaber und alle, die ihre Sehnsucht nach Natur stillen wollen. Ob mitten in der Stadt oder im naheliegenden Grüngürtel. FORESTER filtert Naturerholungsgebiete und Wälder in der Umgebung. Hier gibt es viel zu entdecken! Forester kennt die Wälder, wie die Tanne den Wald. FORESTER zeigt dir ganz genau, wo Du die besten Spots für deine Aus- zeit in der Natur finden kannst und lüftet geheimnisvolle Waldschätze, die Du auf deinem persönlichen Woodventure entdecken kannst. Denn Wald ist nicht gleich Wald.",
         img: '../images/heide3.jpg',
         position: {latitude: 53.458099, longitude: 9.8416605}
     },
@@ -289,18 +291,18 @@ const forestData = [
     {
         id: 37,
         forest: "forest",
-        name: "",
+        name: "Fürstenberg",
         text: "Hier sämtliche Informationen, die den Wald beschreiben",
         img: '../images/wald7.jpg',
-        position: {latitude: 53.6240124, longitude: 9.8734658}
+        position: {latitude: 51.474117, longitude: 7.944268}
     },
     {
         id: 38,
         forest: "forest",
         name: "",
-        text: "Hier sämtliche Informationen, die den Wald beschreiben",
+        text: "Fürstenberg mit der berühmten Fürstenbergkapelle",
         img: '../images/wald7.jpg',
-        position: {latitude: 53.6240124, longitude: 9.8734658}
+        position: {latitude: 53.6240124, longitude: 7.9467013}
     },
     {
         id: 39,

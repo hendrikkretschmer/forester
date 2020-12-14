@@ -16,6 +16,8 @@ import treasureitem from '../icons/map-icons-beige/svg/005-treasure-map-1.svg';
 import exploreicon from '../icons/explore_icon_25x25.svg';
 import TreasureData from './TreasureData';
 
+import { Browserrouter as Router, Switch, Route, Link} from 'react-router-dom';
+
 function TreasureNav() {
   const [treasures, setTreasures] = useState([]);
 
@@ -91,16 +93,15 @@ function TreasureNav() {
               <img src={treasure.img} width="275" height="150"/>
             </div>
             
-            <p>{treasure.Merkmale}</p>
-
-            <p>{treasure.name}</p>
-
-            <p>{treasure.location}</p>
+            <p className="treasure__info--text">{treasure.info}</p>
 
             <div className="treasure__card--bottom" key={treasure.id}>
 
-
+              <p>Get more information!</p>
+              
               <div className="location__icon--wrapper">
+             
+              <Link to="/treasurepage">
                 <img
                   className="location__icon"
                   src={exploreicon}
@@ -108,6 +109,7 @@ function TreasureNav() {
                   height="25"
                   alt="locationicon"
                 />
+               </Link>
               </div>
             </div>
           </div>

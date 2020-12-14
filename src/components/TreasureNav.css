@@ -223,6 +223,11 @@ button:focus{
     margin-bottom: 10px;
 }
 
+.treasure__info--text {
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
 .treasure__card--bottom {
     display: flex;
     justify-content: flex-end;
