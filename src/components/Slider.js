@@ -67,6 +67,23 @@ console.log(index)
               {/*<h2>Index: {index}</h2>*/}
             </div>
           )}
+      
+    
+    
+      </div>
+    </div>
+    
+   
+  );
+}
+
+export default Slider;
+
+
+
+
+
+
 
 
 
@@ -88,14 +105,3 @@ console.log(index)
 
         </div>
           */}
-      
-    
-    
-      </div>
-    </div>
-    
-   
-  );
-}
-
-export default Slider;

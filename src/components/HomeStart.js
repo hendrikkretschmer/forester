@@ -12,7 +12,11 @@ function Home() {
             <Header />
             
             <Slider />
-            
+            <div>
+
+            <h1>HALLO</h1>
+
+            </div>
             <Footer />
          </div>
     )
