@@ -138,8 +138,7 @@ console.log(index)
     
       </div>
     </div>
-
-          <Footer />
+    
     </div>
   );
 }

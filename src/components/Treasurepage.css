@@ -1,5 +1,5 @@
 .treasure__card--wrapper {
-    border: solid;
+    border: none;
     border-color: red;
     height: 250px;
     box-shadow: 0px 0px 20px 3px rgba(6, 6, 6, 0.68);
@@ -15,7 +15,7 @@
     
     
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-direction: row;
     border: none;
     margin-left: 20px;
@@ -117,19 +117,20 @@
 /* WRAPPED DIE HEADLINE UND DEN TEXT */
 
 .treasure__title--wrapper {
-    border: solid;
+    border: none;
     border-color: lawngreen;
     position: absolute;
     margin-top: 175px;
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
     padding-right: 10px;
 }
 
 .treasure__title {
-    border: solid;
+    border: none;
     border-color: lawngreen;
     color: #faebd4;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-bottom: 0px;
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
@@ -148,8 +149,26 @@
 /* BOOKMARK */
 
 .bookmark__icon--wrapper {
-    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
     border-color: rgb(202, 0, 252);
+    margin-left: 0px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.bookmark__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    background-color: #faebd4;
 }
 
 
@@ -168,4 +187,14 @@
     border: solid;
     border-color: lawngreen;
     color: white;
+}
+
+
+.treasure__subline--wrapper {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #063a38;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
