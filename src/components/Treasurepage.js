@@ -8,6 +8,7 @@ import treasureData from './TreasureData';
 import exploreicon from '../icons/explore_icon_25x25.svg';
 import Header from './Header';
 import Footer from './Footer';
+import quotation from '../icons/quotation-icons/quotation4.svg';
 
 
 
@@ -86,14 +87,10 @@ console.log(index)
                   <img src={bookmark_darkgreen1} alt="icon" width="20" height="20"/>
                 </button>
                 </div>
+                
                 <div className="bookmark__icon--wrapper">
                 <button className="bookmark__icon" width="5" height="5">
-                  <img src={bookmark_darkgreen1} alt="icon" width="20" height="20"/>
-                </button>
-                </div>
-                <div className="bookmark__icon--wrapper">
-                <button className="bookmark__icon" width="5" height="5">
-                  <img src={bookmark_darkgreen1} alt="icon" width="20" height="20"/>
+                  <img src={exploreicon} alt="icon" width="30" height="30"/>
                 </button>
                 </div>
                 
@@ -108,8 +105,9 @@ console.log(index)
                 
                 <div className="zitat">
                   <div className="paragraph__icon--wrapper">
-                    <img src={exploreicon} alt="paragraph-icon" />
+                  <img src={quotation} className="quotation" alt="quotation"/>
                   </div>
+
                   <h5 className="paragraph__info--headline5">{treasure[index].info}</h5>
                   </div>
 

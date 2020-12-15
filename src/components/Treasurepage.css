@@ -160,6 +160,12 @@
     width: 35px;
     height: 35px;
     opacity: none !important;
+    transition: all .2s ease-in-out;
+}
+
+.bookmark__icon--wrapper:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0px 5px rgba(208, 255, 237, 0.952);
 }
 
 .bookmark__icon {
@@ -200,14 +206,21 @@
     margin-top: 10px;
 }
 
+.quotation {
+    width: 17px;
+    height: 17px;
+    padding: 0px;
+    margin: 0px;
+}
+
 .paragraph__icon--wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     width: 100px;
     margin-right: 5px;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 7px;
 }
 
 .paragraph__info--headline5 {
@@ -216,9 +229,9 @@
     padding-top: 0px;
     padding-bottom: 5px;
     margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 5px;
-    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     font-weight: 500;
 
    border: none;
