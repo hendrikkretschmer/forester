@@ -1,9 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import './Slider.css';
-import image_1 from '../images/image_1.jpg';
 import arrow_left from '../images/arrow_icon_left_black.svg';
 import arrow_right from '../images/arrow_icon_right_black.svg';
 import forestData from './ForestData';
+import Header from './Header';
+import Footer from './Footer';
 
 
 function Slider() {
@@ -33,6 +34,9 @@ function Slider() {
 
 console.log(index)
   return (
+   
+     
+      
     <div className="App">
       
       <div className="slider__card--wrapper">
@@ -89,6 +93,8 @@ console.log(index)
     
       </div>
     </div>
+    
+   
   );
 }
 

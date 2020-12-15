@@ -6,6 +6,8 @@ import treeicon2 from '../icons/treasureicons/treeicon2.svg';
 import bookmark_darkgreen1 from '../icons/treasureicons/bookmark_darkgreen1.svg';
 import treasureData from './TreasureData';
 import exploreicon from '../icons/explore_icon_25x25.svg';
+import Header from './Header';
+import Footer from './Footer';
 
 
 
@@ -36,6 +38,8 @@ function Treasurepage() {
 
 console.log(index)
   return (
+    <div title="HEADER and FOOTER WRAPPER">
+      <Header />
     <div className="App">
       
       <div className="treasure__card--wrapper">
@@ -133,6 +137,9 @@ console.log(index)
     
     
       </div>
+    </div>
+
+          <Footer />
     </div>
   );
 }

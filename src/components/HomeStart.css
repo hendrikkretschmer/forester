@@ -1,11 +1,17 @@
-.content__under--slider {
+h1 {
+    color: white;
+}
+
+
+
+/*.content__under--slider {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: none;
+    border: solid;
     border-color: red;
-    height: 262px;
+    height: 0px;
 }
 
 .input__title {
@@ -26,71 +32,4 @@
     padding-right: 30px;
     box-shadow: 0px 0px 20px 3px rgba(6, 6, 6, 0.68);
 }
-
-
-
-
-
-
-/* LIEGT ÜBER ALLEM DRÜBER!*/
-/*.background__layer {
-    height: 600px;
-}*/
-
-/*
-.content__wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 */
-/*
-.welcome__image--wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #5eb990;
-    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.1);
-
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    border: none;
-    margin: 0px;
-    padding: 0px;
-
-    opacity: 0.6;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
-.welcome__text {
-    border: none;
-    border-color: red;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 20px;
-}
-
-.welcome__title {
-    color:#faebd4;
-    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.1);
-    padding: 0px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.paragraph {
-    color: #faebd4;
-    text-align: center;
-}
-*/
-
-/*.slider__component {
-    width: 375px;
-    height: 260px;
-    background-color: none;
-    border: none;
-    color: red;
-}*/

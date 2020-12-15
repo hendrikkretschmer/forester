@@ -1,12 +1,16 @@
 import React from 'react';
 import './Treasures.css';
 import TreasureNav from './TreasureNav';
+import Header from './Header';
+import Footer from './Footer';
 
 function Treasures() {
 
  return (
         <div>
+            <Header />
             <TreasureNav />
+            <Footer />
         </div>
     )
 }

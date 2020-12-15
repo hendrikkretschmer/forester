@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { Browserrouter as Router, Switch, Route, Link} from 'react-router-dom';
 import './TreasureNav.css';
 import treasureicon from '../icons/map-icons-beige/svg/004-treasure-map.svg';
-
 import animalicon from '../icons/treasureicons/animalicon2.svg';
 import treeicon from '../icons/treasureicons/treeicon5.svg';
 import snackicon from '../icons/treasureicons/snackicon1.svg';
@@ -10,15 +10,12 @@ import pilzicon from '../icons/treasureicons/pilzicon2.svg';
 import herbsicon from '../icons/treasureicons/herbsicon1.svg';
 import planticon from '../icons/treasureicons/herbsicon2.svg';
 import mooricon from '../icons/treasureicons/watericon2.svg';
-
 import treasuresicon from '../icons/treasure_icon_25x25.svg';
 import exploreicon from '../icons/explore_icon_25x25.svg';
 import TreasureData from './TreasureData';
 
-import { Browserrouter as Router, Switch, Route, Link} from 'react-router-dom';
 
-import Header from './Header';
-import Footer from './Footer';
+
 
 function TreasureNav() {
   const [treasures, setTreasures] = useState([]);
@@ -32,12 +29,7 @@ function TreasureNav() {
   }
 
   return (
-    <div title="HEADER MAIN WRAPPER">
-      
-      <Header />
-
-
-    <div className="treasure__wrapper--top">
+  <div className="treasure__wrapper--top">
       <div className="treasure__headline--container">
         
         <div className="treasure__image">
@@ -122,9 +114,6 @@ function TreasureNav() {
           </div>
         ))}
       </div>
-    </div>
-
-    <Footer />
     </div>
   );
 }
