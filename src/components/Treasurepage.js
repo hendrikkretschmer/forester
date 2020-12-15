@@ -66,7 +66,8 @@ console.log(index)
                 <h3 className="treasure__title">{treasure[index].name}</h3>
               </div>
 
-              <div className="treasure__subline--wrapper">
+            <div className="treasure__subline--wrapper">
+            
                 
                 {/*<div className="icon__wrapper">
                 <button className="button__icon" width="20" height="20">
@@ -85,15 +86,29 @@ console.log(index)
                   <img src={bookmark_darkgreen1} alt="icon" width="20" height="20"/>
                 </button>
                 </div>
+                <div className="bookmark__icon--wrapper">
+                <button className="bookmark__icon" width="5" height="5">
+                  <img src={bookmark_darkgreen1} alt="icon" width="20" height="20"/>
+                </button>
+                </div>
+                <div className="bookmark__icon--wrapper">
+                <button className="bookmark__icon" width="5" height="5">
+                  <img src={bookmark_darkgreen1} alt="icon" width="20" height="20"/>
+                </button>
+                </div>
                 
                 {/*<p className="forest__text">{forest[index].text}</p>*/}
               
               </div>
+             
 
   
 
               <div className="paragraph__wrapper">
                 <h5 className="paragraph__info--headline5">{treasure[index].info}</h5>
+                
+                <h5 className="paragraph__info--merkmale">Merkmale</h5>
+                
                 <ul className="paragraph__listitems">
                 <li className="paragraph__listitem--hut"><strong>Hut:&nbsp;</strong> {treasure[index].Hut}</li>
                 <li className="paragraph__listitem--hutfarbe"><strong>Hutfarbe:&nbsp;</strong> {treasure[index].Hutfarbe}</li>
@@ -103,11 +118,10 @@ console.log(index)
                 <li className="paragraph__listitem--fruchtkörper"><strong>Fruchtkörper:&nbsp;</strong>{treasure[index].Fruchtkörper}</li>
                 <li className="paragraph__listitem--besonderheit"><strong>Besonderheit:&nbsp;</strong>{treasure[index].Besonderheit}</li>
                 <li className="paragraph__listitem--verweckslungsgefahr"><strong>Verwechslung:&nbsp;</strong>{treasure[index].Verwechslungsgefahr}</li>
-                
-                
-                </ul>
+              </ul>
+              
               </div>
-              {/*<h2>Index: {index}</h2>*/}
+              {/*<h2>Index: {index}</h2> <hr className="trennlinie"></hr>*/ }
 
 
             </div>
@@ -138,7 +152,7 @@ console.log(index)
     
       </div>
     </div>
-    
+
     </div>
   );
 }

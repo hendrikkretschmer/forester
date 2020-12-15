@@ -153,11 +153,13 @@
     justify-content: center;
     align-items: center;
     border: none;
-    border-color: rgb(202, 0, 252);
-    margin-left: 0px;
+    border-width: thin;
+    border-color:rgb(0, 0, 0);
+    margin-left: 10px;
     border-radius: 50%;
     width: 35px;
     height: 35px;
+    opacity: none !important;
 }
 
 .bookmark__icon {
@@ -167,34 +169,105 @@
     width: 35px;
     height: 35px;
     border: none;
+    
     border-radius: 50%;
-    background-color: #faebd4;
+    /*background-color: #063a38;*/
+    background-color: #5eb990;
+    /*background-color: #faebd4;*/
+    opacity: none !important;
 }
 
 
 .paragraph__wrapper {
-    border: solid;
+    border: none;
     border-color: lawngreen;
 }
 
 .paragraph__info--headline5 {
+    border: none;
+    border-width: thin;
+    border-color: #faebd4;
+    /*color: #faebd4;*/
+    color: #063a38;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: 500;
+
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.1);
+    background-color: #faebd4;
+    border-radius: 10px;
+
+    line-height: 1.4;
+}
+
+.paragraph__info--merkmale {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     border: solid;
-    border-color: lawngreen;
-    color: white;
+    border-width: thin;
+    border-color: #faebd4;
+    color: #faebd4;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: 600;
+
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.1);
+
+    border-radius: 10px;
 }
 
 .paragraph__listitems {
     border: solid;
-    border-color: lawngreen;
-    color: white;
+    border-width: thin;
+    border-color: #faebd4;
+    color: #faebd4;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+    border-radius: 10px;
+
+    line-height: 2;
 }
 
+.trennlinie {
+    background: #faebd4;
+    border: thin;
+    height: 0.5px;
+    width: 80%;  
+}
 
 .treasure__subline--wrapper {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     background-color: #063a38;
-    padding-right: 10px;
+    /*background-color: #5eb990;*/
+    /*background-color: #faebd4;*/
+    padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border: none;
 }
+
