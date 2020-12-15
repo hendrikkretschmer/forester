@@ -12,11 +12,13 @@ import planticon from '../icons/treasureicons/herbsicon2.svg';
 import mooricon from '../icons/treasureicons/watericon2.svg';
 
 import treasuresicon from '../icons/treasure_icon_25x25.svg';
-import treasureitem from '../icons/map-icons-beige/svg/005-treasure-map-1.svg';
 import exploreicon from '../icons/explore_icon_25x25.svg';
 import TreasureData from './TreasureData';
 
 import { Browserrouter as Router, Switch, Route, Link} from 'react-router-dom';
+
+import Header from './Header';
+import Footer from './Footer';
 
 function TreasureNav() {
   const [treasures, setTreasures] = useState([]);
@@ -30,45 +32,50 @@ function TreasureNav() {
   }
 
   return (
+    <div title="HEADER MAIN WRAPPER">
+      
+      <Header />
+
+
     <div className="treasure__wrapper--top">
-      <div className="headline__container">
+      <div className="treasure__headline--container">
         
         <div className="treasure__image">
           <img src={treasureicon} width="160" height="160" alt="TreasureIcon" />
         </div>
 
-        <h1>Forest Treasures!</h1>
+        <h1 className="treasure__headline">Forest Treasures!</h1>
 
-        <p className="subline__container">Click on any item to explore treasures!</p>
+        <p className="treasure__subline--container">Click on any item to explore treasures!</p>
       </div>
 
-      <div className="button__container">
-        <div className="button__row--top">
-          <button onClick={() => clickMe('Pilze')} className="Pilze">
+      <div className="treasure__button--container">
+        <div className="treasure__buttonrow--top">
+          <button onClick={() => clickMe('Pilze')} className="treasure__button">
             <img src={pilzicon} width="40" height="40" alt="TreasureIcon" />
           </button>
-          <button onClick={() => clickMe('Tiere')} className="Tiere">
+          <button onClick={() => clickMe('Tiere')} className="treasure__button">
             <img src={animalicon} width="40" height="40" alt="TreasureIcon" />
           </button>
-          <button onClick={() => clickMe('Bäume')} className="Bäume">
+          <button onClick={() => clickMe('Bäume')} className="treasure__button">
             <img src={treeicon} width="40" height="40" alt="TreasureIcon" />
           </button>
-          <button onClick={() => clickMe('Kräuter')} className="Kräuter">
+          <button onClick={() => clickMe('Kräuter')} className="treasure__button">
             <img src={herbsicon} width="40" height="40" alt="TreasureIcon" />
           </button>
         </div>
 
-        <div className="button__row--bottom">
-          <button onClick={() => clickMe('Pflanzen')} className="Pflanzen">
+        <div className="treasure__buttonrow--bottom">
+          <button onClick={() => clickMe('Pflanzen')} className="treasure__button">
             <img src={planticon} width="40" height="40" alt="TreasureIcon" />
           </button>
-          <button onClick={() => clickMe('Snacks')} className="Snacks">
+          <button onClick={() => clickMe('Snacks')} className="treasure__button">
             <img src={snackicon} width="40" height="40" alt="TreasureIcon" />
           </button>
-          <button onClick={() => clickMe('Gewässer')} className="Gewässer">
+          <button onClick={() => clickMe('Gewässer')} className="treasure__button">
             <img src={wassericon} width="40" height="40" alt="TreasureIcon" />
           </button>
-          <button onClick={() => clickMe('Moore')} className="Moore">
+          <button onClick={() => clickMe('Moore')} className="treasure__button">
             <img src={mooricon} width="40" height="40" alt="TreasureIcon" />
           </button>
         </div>
@@ -89,8 +96,8 @@ function TreasureNav() {
             <p className="treasure__category--headline" key={treasure.id}>{treasure.name}</p>
             </div>
             
-            <div className="treasure_image">
-              <img src={treasure.img} width="275" height="150"/>
+            <div className="treasure__image">
+              <img src={treasure.img} className="treasure__image--item" /*width="285" height="170"*/ />
             </div>
             
             <p className="treasure__info--text">{treasure.info}</p>
@@ -115,6 +122,9 @@ function TreasureNav() {
           </div>
         ))}
       </div>
+    </div>
+
+    <Footer />
     </div>
   );
 }

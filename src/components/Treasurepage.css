@@ -1,97 +1,86 @@
-/*body {
-    height: 620px;
-    background-image: url('./images/forest_from_above_farbe.jpg');
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-}*/
-
-.content__card--wrapper {
-    border: none;
-    border-width: thick;
+.treasure__card--wrapper {
+    border: solid;
     border-color: red;
-
-    width: 375px;
-    height: 600px;
-    /*box-shadow: 0px 0px 20px 3px rgba(6, 6, 6, 0.68);*/
+    height: 250px;
+    box-shadow: 0px 0px 20px 3px rgba(6, 6, 6, 0.68);
 }
 
 
 /* GESAMTER BUTTON CONTAINER, DER LINKS UND RECHTS WRAPPED */
 
-.allbuttons__container {
+.treasure__allbuttons--container {
+    border: solid;
+    border-color: lawngreen;
+    border-width: thin;
+    
+    
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-
     border: none;
-    border-color: rgb(0, 238, 255);
-    border-width: thin;
-
     margin-left: 20px;
     margin-right: 20px;
     position: absolute;
     margin-top: 120px;
     z-index: 100;
-
-    opacity: 0.7;
 }
 
 /* LINKER BUTTON PFEIL CONTAINER */
-.buttonbox__left {
+.treasure__buttonbox--left {
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
-    border-width: thin;
-    border-color: rgb(247, 0, 255);
     border-radius: 50%;
-    background-color: white;
-    
     width: 20px;
     height: 20px;
     margin-right: 290px;
+    background-color: #faebd4;
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    opacity: 0.8;
 }
 
-.button__icon--left{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.treasure__buttonbox--left:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0px 5px rgba(208, 255, 237, 0.952);
+}
+
+
+.treasure__button--right{
     border: none;
-    border-width: thin;
-    border-color: rgb(247, 0, 255);
-
-
     width: 10px;
     height: 10px;
-    padding-right: 2px;
+    padding-left: 3px;
 }
 
 
 /* RECHTER BUTTON PFEIL CONTAINER */
-.buttonbox__right {
+.treasure__buttonbox--right {
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
-    border-width: thin;
-    border-color: rgb(247, 0, 255);
     border-radius: 50%;
-    background-color: white;
-    
     width: 20px;
     height: 20px;
-    margin-right: 0px;
+    background-color: #faebd4;
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    opacity: 0.8;
 }
-.button__icon--right {
+
+.treasure__buttonbox--right:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0px 5px rgba(208, 255, 237, 0.952);
+}
+.treasure__button--right {
     border: none;
-    border-width: thin;
-    border-color: rgb(247, 0, 255);
-
-
     width: 10px;
     height: 10px;
-    padding-right: -2px;
+    padding-left: 3px;
 }
 
 
@@ -107,114 +96,76 @@
 
 /* DER CONTENT, DER ÜBER DIE FORESTDATA AUSGEGEBEN WIRD */
 
-.forest__container {
+.treasure__container--image {
     border: none;
+    border-color: rgb(4, 0, 255);
     border-width: thin;
-    border-color: yellow;
     margin: 0px;
-
-    width: 375px;
-    height: 600px;
-
+    height: 250px;
     display: flex;
     flex-direction: column;
 }
 
-.main__image {
+.treasure__main--image {
     border: none;
+    border-color: rgb(252, 193, 0);
+    border-width: thin;
     width:375px;
-    height:260px;
+    height:250px;
 }
 
 /* WRAPPED DIE HEADLINE UND DEN TEXT */
 
-.title__wrapper {
-    border: none;
+.treasure__title--wrapper {
+    border: solid;
+    border-color: lawngreen;
     position: absolute;
-    margin-top: 185px;
-    padding-left: 0px;
-    padding-right: 0px;
+    margin-top: 175px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.forest__title {
+.treasure__title {
+    border: solid;
+    border-color: lawngreen;
     color: #faebd4;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-bottom: 0px;
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
 
-.forest__text {
-    /*background-color: black;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;*/
+.treasure__text {
+    border: solid;
+    border-color: lawngreen;
     color: #faebd4;
-    /*color: #063a38;*/
-    padding-left: 15px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 0px;
-    margin-top: 10px;
-    font-weight: 0;
-    /*text-shadow: 3px 3px 4px rgb(0, 0, 0);*/
+    padding-left: 10px;
+    margin-top: 5px;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
 
-.subline__wrapper {
-    display: flex;
-    justify-content: space-between;
-    /*background-color: #5eb990;*/
-    background-color:#063a38;
-    /*background-color:#f8e9d2;*/
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    margin: 0px;
-    padding-right: 0px;
-    width: 375px;
-    opacity: 0.9;
+/* PARAGRAPH PARAGRAPH PARAGRAPH PARAGRAPH PARAGRAPH PARAGRAPH */
+
+/* BOOKMARK */
+
+.bookmark__icon--wrapper {
+    border: solid;
+    border-color: rgb(202, 0, 252);
 }
+
 
 .paragraph__wrapper {
-    /*background-color: #faebd4;*/
-    background-color: rgb(255, 0, 0);
-    color: #063a38;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-
-    opacity: 0.9;
-    
+    border: solid;
+    border-color: lawngreen;
 }
 
-.lupenicon__wrapper {
-    background-color:none;
-    border-radius: 50%;
-    padding: 0px;
-    margin-left: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
+.paragraph__info--headline5 {
+    border: solid;
+    border-color: lawngreen;
+    color: white;
 }
 
-.button__lupenicon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border: none;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    background-color: #5eb990; 
-}
-
-h3 {
-    padding: 0px;
-    margin: 0px;
-}
-
-p {
-    padding: 0px;
-    margin: 0px;
+.paragraph__listitems {
+    border: solid;
+    border-color: lawngreen;
+    color: white;
 }

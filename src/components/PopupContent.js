@@ -1,6 +1,5 @@
 import React from 'react';
 import './PopupContent.css';
-import forest_fog2 from '../images/forest_fog2.jpg';
 
 
 function PopupContent({forest}) {

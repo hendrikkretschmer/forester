@@ -3,10 +3,13 @@ import './Treasurepage.css';
 import arrow_left from '../images/arrow_icon_left_black.svg';
 import arrow_right from '../images/arrow_icon_right_black.svg';
 import treeicon2 from '../icons/treasureicons/treeicon2.svg';
+import bookmark_darkgreen1 from '../icons/treasureicons/bookmark_darkgreen1.svg';
 import treasureData from './TreasureData';
+import exploreicon from '../icons/explore_icon_25x25.svg';
 
 
-function Infopage() {
+
+function Treasurepage() {
   const [index, setIndex] = useState(0);
   const [treasure, setTreasure] = useState([]);
 
@@ -35,16 +38,16 @@ console.log(index)
   return (
     <div className="App">
       
-      <div className="content__card--wrapper">
+      <div className="treasure__card--wrapper">
         
-          <div className="allbuttons__container">
+          <div className="treasure__allbuttons--container">
             
-                  <button onClick={slideLeft} className="buttonbox__left">
-                    <img src={arrow_left} alt="arrow_left" className="button__icon--left"/>
+                  <button onClick={slideLeft} className="treasure__buttonbox--left">
+                    <img src={arrow_left} alt="arrow_left" className="treasure__button--left" width="10" height="10"/>
                   </button>
 
-                  <button onClick={slideRight} className="buttonbox__right">
-                    <img src={arrow_right} alt="arrow_right" className="button__icon--right"/>
+                  <button onClick={slideRight} className="treasure__buttonbox--right">
+                    <img src={arrow_right} alt="arrow_right" className="treasure__button--right" width="10" height="10"/>
                   </button>
           
           </div>
@@ -52,42 +55,30 @@ console.log(index)
           {/* ///////////////////////////////////////////// */}
 
           { treasure[index] && (
-            <div className="forest__container">
-              <img className="main__image" src={treasure[index].img} alt="image_1"/>
+            <div className="treasure__container--image">
+              <img className="treasure__main--image" src={treasure[index].img} alt="image_1"/>
               
-              <div className="title__wrapper">
-                <h3 className="forest__title">{treasure[index].name}</h3>
+              <div className="treasure__title--wrapper">
+                <h3 className="treasure__title">{treasure[index].name}</h3>
               </div>
-              
-              <div className="subline__wrapper">
+
+              <div className="treasure__subline--wrapper">
                 
-                <div className="lupenicon__wrapper">
-                <button className="button__lupenicon" width="20" height="20">
-                  <img src={treeicon2} alt="lupenicon" width="30" height="35"/>
+                {/*<div className="icon__wrapper">
+                <button className="button__icon" width="20" height="20">
+                  <img src={treeicon2} alt="icon" width="30" height="35"/>
                 </button>
                 </div>
 
-                <div className="lupenicon__wrapper">
-                <button className="button__lupenicon" width="20" height="20">
-                  <img src={treeicon2} alt="lupenicon" width="30" height="35"/>
+                <div className="icon__wrapper">
+                <button className="button__icon" width="20" height="20">
+                  <img src={exploreicon} alt="icon" width="30" height="35"/>
                 </button>
-                </div>
+          </div>*/}
 
-                <div className="lupenicon__wrapper">
-                <button className="button__lupenicon" width="20" height="20">
-                  <img src={treeicon2} alt="lupenicon" width="30" height="35"/>
-                </button>
-                </div>
-
-                <div className="lupenicon__wrapper">
-                <button className="button__lupenicon" width="20" height="20">
-                  <img src={treeicon2} alt="lupenicon" width="30" height="35"/>
-                </button>
-                </div>
-
-                <div className="lupenicon__wrapper">
-                <button className="button__lupenicon" width="20" height="20">
-                  <img src={treeicon2} alt="lupenicon" width="30" height="35"/>
+                <div className="bookmark__icon--wrapper">
+                <button className="bookmark__icon" width="5" height="5">
+                  <img src={bookmark_darkgreen1} alt="icon" width="20" height="20"/>
                 </button>
                 </div>
                 
@@ -95,10 +86,26 @@ console.log(index)
               
               </div>
 
+  
+
               <div className="paragraph__wrapper">
-                <p>{treasure[index].textlong}</p>
+                <h5 className="paragraph__info--headline5">{treasure[index].info}</h5>
+                <ul className="paragraph__listitems">
+                <li className="paragraph__listitem--hut"><strong>Hut:&nbsp;</strong> {treasure[index].Hut}</li>
+                <li className="paragraph__listitem--hutfarbe"><strong>Hutfarbe:&nbsp;</strong> {treasure[index].Hutfarbe}</li>
+                <li className="paragraph__listitem--stiel"><strong>Stiel:&nbsp;</strong>{treasure[index].Stiel}</li>
+                <li className="paragraph__listitem--wuchshöhe"><strong>Wuchshöhe:&nbsp;</strong>{treasure[index].Wuchshöhe}</li>
+                <li className="paragraph__listitem--fleisch"><strong>Fleisch:&nbsp;</strong>{treasure[index].Fleisch}</li>
+                <li className="paragraph__listitem--fruchtkörper"><strong>Fruchtkörper:&nbsp;</strong>{treasure[index].Fruchtkörper}</li>
+                <li className="paragraph__listitem--besonderheit"><strong>Besonderheit:&nbsp;</strong>{treasure[index].Besonderheit}</li>
+                <li className="paragraph__listitem--verweckslungsgefahr"><strong>Verwechslung:&nbsp;</strong>{treasure[index].Verwechslungsgefahr}</li>
+                
+                
+                </ul>
               </div>
               {/*<h2>Index: {index}</h2>*/}
+
+
             </div>
           )}
 
@@ -130,4 +137,4 @@ console.log(index)
   );
 }
 
-export default Infopage;
+export default Treasurepage;

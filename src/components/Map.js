@@ -27,7 +27,7 @@ class Map extends Component {
   render() {
     const position = [this.state.lat, this.state.lng];
     const iconPerson = new L.Icon({
-      iconUrl: './icons/location-icons/location_icon_green.svg',
+      iconUrl: 'icons/location-icons/location_icon.svg',
       iconAnchor: [0, 0],
       popupAnchor: [25, 0],
       iconSize: [35, 35]

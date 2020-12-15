@@ -1,3 +1,35 @@
+.content__under--slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-color: red;
+    height: 262px;
+}
+
+.input__title {
+    color: #faebd4;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+.input__location {
+    background-color: #5eb990;
+    border: none;
+    border-radius: 20px;
+    color: #063a38;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right: 30px;
+    box-shadow: 0px 0px 20px 3px rgba(6, 6, 6, 0.68);
+}
+
+
+
+
 
 
 /* LIEGT ÜBER ALLEM DRÜBER!*/
@@ -55,39 +87,10 @@
 }
 */
 
-.slider__component {
+/*.slider__component {
     width: 375px;
     height: 260px;
     background-color: none;
     border: none;
     color: red;
-}
-
-.content__under--slider {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: none;
-    border-color: red;
-    height: 262px;
-}
-
-.input__title {
-    color: #faebd4;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    text-shadow: 3px 3px 4px rgb(0, 0, 0);
-}
-.input__location {
-    background-color: #5eb990;
-    border: none;
-    border-radius: 20px;
-    color: #063a38;
-    margin-bottom: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left:10px;
-    padding-right: 30px;
-    box-shadow: 0px 0px 20px 3px rgba(6, 6, 6, 0.68);
-}
+}*/

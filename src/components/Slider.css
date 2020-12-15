@@ -1,4 +1,4 @@
-.content__card--wrapper {
+.slider__card--wrapper {
     border: none;
     height: 250px;
     box-shadow: 0px 0px 20px 3px rgba(6, 6, 6, 0.68);
@@ -7,7 +7,7 @@
 
 /* GESAMTER BUTTON CONTAINER, DER LINKS UND RECHTS WRAPPED */
 
-.allbuttons__container {
+.slider__allbuttons--container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -20,28 +20,57 @@
 }
 
 /* LINKER BUTTON PFEIL CONTAINER */
-.buttonbox__left {
+.slider__buttonbox--left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
+    border-radius: 50%;
     width: 20px;
     height: 20px;
     margin-right: 290px;
+    background-color: #faebd4;
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    opacity: 0.8;
 }
 
-.button__icon--left{
+.slider__buttonbox--left:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0px 5px rgba(208, 255, 237, 0.952);
+}
+
+
+.slider__button--right{
     border: none;
     width: 10px;
     height: 10px;
-    padding-right: 3px;
+    padding-left: 3px;
 }
 
 
 /* RECHTER BUTTON PFEIL CONTAINER */
-.buttonbox__right {
+.slider__buttonbox--right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
+    border-radius: 50%;
     width: 20px;
     height: 20px;
+    background-color: #faebd4;
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    opacity: 0.8;
 }
-.button__icon--right {
+
+.slider__buttonbox--right:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0px 5px rgba(208, 255, 237, 0.952);
+}
+.slider__button--right {
     border: none;
     width: 10px;
     height: 10px;
@@ -61,7 +90,7 @@
 
 /* DER CONTENT, DER ÜBER DIE FORESTDATA AUSGEGEBEN WIRD */
 
-.forest__container {
+.slider__container {
     border: none;
     border-color: yellow;
     margin: 0px;
@@ -70,7 +99,7 @@
     flex-direction: column;
 }
 
-.main__image {
+.slider__main--image {
     border: none;
     width:375px;
     height:250px;
@@ -78,7 +107,7 @@
 
 /* WRAPPED DIE HEADLINE UND DEN TEXT */
 
-.title__wrapper {
+.slider__title--wrapper {
     border: none;
     position: absolute;
     margin-top: 175px;
@@ -86,25 +115,16 @@
     padding-right: 10px;
 }
 
-.forest__title {
+.slider__title {
     color: #faebd4;
     padding-left: 10px;
     padding-bottom: 0px;
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
 
-.forest__text {
+.slider__text {
     color: #faebd4;
     padding-left: 10px;
     margin-top: 5px;
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
-}
-h3 {
-    padding: 0px;
-    margin: 0px;
-}
-
-p {
-    padding: 0px;
-    margin: 0px;
 }

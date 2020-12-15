@@ -35,16 +35,16 @@ console.log(index)
   return (
     <div className="App">
       
-      <div className="content__card--wrapper">
+      <div className="slider__card--wrapper">
         
-          <div className="allbuttons__container">
+          <div className="slider__allbuttons--container">
             
-                  <button onClick={slideLeft} className="buttonbox__left">
-                    <img src={arrow_left} alt="arrow_left" className="button__icon--left"/>
+                  <button onClick={slideLeft} className="slider__buttonbox--left">
+                    <img src={arrow_left} alt="arrow_left" className="slider__button--left" width="10" height="10"/>
                   </button>
 
-                  <button onClick={slideRight} className="buttonbox__right">
-                    <img src={arrow_right} alt="arrow_right" className="button__icon--right"/>
+                  <button onClick={slideRight} className="slider__buttonbox--right">
+                    <img src={arrow_right} alt="arrow_right" className="slider__button--right" width="10" height="10"/>
                   </button>
           
           </div>
@@ -52,13 +52,13 @@ console.log(index)
           {/* ///////////////////////////////////////////// */}
 
           { forest[index] && (
-            <div className="forest__container">
-              <img className="main__image" src={forest[index].img} alt="image_1"/>
+            <div className="slider__container">
+              <img className="slider__main--image" src={forest[index].img} alt="image_1"/>
               
-              <div className="title__wrapper">
-                <h3 className="forest__title">{forest[index].name}</h3>
+              <div className="slider__title--wrapper">
+                <h3 className="slider__title">{forest[index].name}</h3>
               
-                <p className="forest__text">{forest[index].text}</p>
+                <p className="slider__text">{forest[index].text}</p>
               </div>
               {/*<h2>Index: {index}</h2>*/}
             </div>
