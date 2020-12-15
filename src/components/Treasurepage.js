@@ -105,8 +105,14 @@ console.log(index)
   
 
               <div className="paragraph__wrapper">
-                <h5 className="paragraph__info--headline5">{treasure[index].info}</h5>
                 
+                <div className="zitat">
+                  <div className="paragraph__icon--wrapper">
+                    <img src={exploreicon} alt="paragraph-icon" />
+                  </div>
+                  <h5 className="paragraph__info--headline5">{treasure[index].info}</h5>
+                  </div>
+
                 <h5 className="paragraph__info--merkmale">Merkmale</h5>
                 
                 <ul className="paragraph__listitems">
