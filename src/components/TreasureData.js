@@ -94,6 +94,7 @@ const treasureData = [
         id: 6,
         treasure: "Pilze",
         name: "Kuhröhrling",
+        info: "Der Kuh-Röhrling oder Kuhpilz (Suillus bovinus) ist ein essbarer Pilz aus der Familie der Schmierröhrlingsverwandten. Er ist häufig unter Kiefern anzutreffen, mit denen er Mykorrhiza bildet.",
         /*Merkmale: "3 - 6cm breiter mit Schuppen übersäter Hut.",*/
         Vorkommen: "auf sandigen Böden, meist unter Kiefern",
         Hut: "Durchmesser 5-10 cm, halbkugelig bis gewölbt, nasse Huthaut schmierig",

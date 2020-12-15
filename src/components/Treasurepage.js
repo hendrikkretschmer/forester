@@ -41,7 +41,7 @@ console.log(index)
   return (
     <div title="HEADER and FOOTER WRAPPER">
       <Header />
-    <div className="App">
+    <div className="main__wrapper">
       
       <div className="treasure__card--wrapper">
         
@@ -155,9 +155,11 @@ console.log(index)
     
     
       </div>
+      
     </div>
-
+    
     </div>
+   
   );
 }
 
