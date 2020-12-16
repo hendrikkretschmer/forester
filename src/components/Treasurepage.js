@@ -9,12 +9,15 @@ import exploreicon from '../icons/explore_icon_25x25.svg';
 import Header from './Header';
 import Footer from './Footer';
 import quotation from '../icons/quotation-icons/quotation4.svg';
+import { useParams } from 'react-router-dom';
 
 
 
 function Treasurepage() {
   const [index, setIndex] = useState(0);
   const [treasure, setTreasure] = useState([]);
+  // http://localhost:3000/treasurepage/:treasureCategory/:treasureId (pilze/1, 2, 3 …)
+  const { treasureCategory, treasureId } = useParams();
 
   const slideRight = () => {
     setIndex((index + 1) % treasure.length);
@@ -29,6 +32,16 @@ function Treasurepage() {
   }
 
   useEffect(() => {
+    const currentTreasureIndex = treasure.findIndex(
+      t => t.treasure.toLowerCase() === treasureCategory.toLowerCase()
+      && t.id === parseInt(treasureId)
+    );
+    if (currentTreasureIndex >= 0) {
+      setIndex(currentTreasureIndex);
+    }
+  }, [treasure, treasureId]);
+
+  useEffect(() => {
     setTreasure(treasureData);
   }, []); // dependency array: empty array -> run once
 
@@ -37,7 +50,6 @@ function Treasurepage() {
   }
 
 
-console.log(index)
   return (
     <div title="HEADER and FOOTER WRAPPER">
       <Header />

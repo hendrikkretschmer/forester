@@ -15,11 +15,11 @@ function App() {
     <div className="App">
       
       <Switch>
-      <Route path="/" exact component={HomeStart} />
-      <Route path="/explore" component={Explore} />
-      <Route path="/treasures" component={Treasures} />
-      <Route path="/profile" component={Profile} />
-      <Route path="/treasurepage" component={Treasurepage} />
+        <Route path="/" exact component={HomeStart} />
+        <Route path="/explore" component={Explore} />
+        <Route path="/treasures" component={Treasures} />
+        <Route path="/profile" component={Profile} />
+        <Route path="/treasurepage/:treasureCategory/:treasureId" component={Treasurepage} />
       </Switch>
       
     </div>

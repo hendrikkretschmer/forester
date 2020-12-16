@@ -110,7 +110,8 @@
 .slider__title--wrapper {
     border: none;
     position: absolute;
-    margin-top: 175px;
+    margin-top: 155px;
+    margin-bottom: 0px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -119,12 +120,13 @@
     color: #faebd4;
     padding-left: 10px;
     padding-bottom: 0px;
+    margin-bottom: 5px;
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
 
 .slider__text {
     color: #faebd4;
     padding-left: 10px;
-    margin-top: 5px;
+    margin-top: 0px;
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }

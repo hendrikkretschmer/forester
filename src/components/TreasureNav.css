@@ -7,7 +7,14 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.treasure__image--item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0px;
 }
 
 
@@ -61,7 +68,9 @@
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    border: none;
+    border-color: red;
 }
 
 /*button {
@@ -124,7 +133,7 @@ button:focus{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    margin-bottom: 55px;
+    margin-bottom: 0px;
 
     border: none;
     border-color: red;
@@ -194,9 +203,10 @@ button:focus{
     padding-right: 0px;
     padding-bottom: 0px;
     
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 15px;
+    margin-top: 0px;
 
     border-radius: 20px;
     box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5);
@@ -208,11 +218,13 @@ button:focus{
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    background-color: #5eb990;
+    /*background-color: #5eb990;*/
+    /*background-color: #d36d00;*/
+    background-color:#063a38;
     background-color: none;
     position: none;
-    /*background-color: #d36d00;*/
-    /*background-color:#063a38;*/
+    
+    border:none;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 0px;
@@ -221,31 +233,43 @@ button:focus{
     border-width: thin;
     /*border-color: #063a38;*/
     /*border-color: #faebd4;*/
-    border-color: #5eb990;
+    /*border-color: #5eb990;*/
     /*border-color: #5eb990;*/
     padding: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
 
     box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5); 
 } 
 
+.eichel__icon--wrapper {
+    background-color: #faebd4;
+    border-radius: 50%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .eichel__icon {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    padding-left: 10px;
-    padding-top: 5px;
-    margin-bottom: 5px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 
 .treasure__category--headline {
-    padding-top: 5px;
+    padding-top: 11px;
     padding-left: 5px;
     padding-bottom: 2px;
     margin: 0px;
-    color: #063a38;
+    /*color: #063a38;*/
     /*color: #5eb990;*/
-    /*color: #faebd4;*/
+    color: #faebd4;
     font-weight: 550;
     letter-spacing: 0.1em;
     font-size: 16px;
@@ -264,6 +288,7 @@ button:focus{
 .treasure__info--text {
     padding-left: 10px;
     margin-bottom: 15px;
+    font-size: 12px;
 }
 
 .treasure__card--bottom {
@@ -274,10 +299,12 @@ button:focus{
     background-color: none;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 5px;
+    padding-top: 0px;
     padding-bottom: 5px;
-    margin-top: 10px;
-
+    margin-top: 0px;
+    /*background-color: #063a38;*/
+    /*background-color: #5eb990;*/
+    /*background-color: #faebd4;*/
     border: none;
 
     border-top-left-radius: 0px;
@@ -292,12 +319,19 @@ button:focus{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20px;
-    weight: 20px;
-    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-color: black;
 }
 
 .location__icon {
+    display: flex;
+    justify-content: center;
     transition: all .2s ease-in-out;
 }
 

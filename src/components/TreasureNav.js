@@ -78,38 +78,34 @@ function TreasureNav() {
           <div className="treasure__card--item">
             
             <div className="iconheadline">
+              <div className="eichel__icon--wrapper">
               <img
               className="eichel__icon"
               src={treasuresicon}
-              width="20"
-              height="20"
               alt="treasureicon"
-            />
+              />
+            </div>
             <p className="treasure__category--headline" key={treasure.id}>{treasure.name}</p>
             </div>
             
             <div className="treasure__image">
               <img src={treasure.img} className="treasure__image--item" /*width="285" height="170"*/ />
             </div>
-            
-            <p className="treasure__info--text">{treasure.info}</p>
 
             <div className="treasure__card--bottom" key={treasure.id}>
 
-              <p>Get more information!</p>
-              
               <div className="location__icon--wrapper">
-             
-              <Link to="/treasurepage">
+              <Link to={`/treasurepage/${treasure.treasure.toLowerCase()}/${treasure.id}`}>
                 <img
                   className="location__icon"
                   src={exploreicon}
-                  width="25"
-                  height="25"
+                  width="30"
+                  height="30"
                   alt="locationicon"
                 />
                </Link>
               </div>
+             
             </div>
           </div>
         ))}

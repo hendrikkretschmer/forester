@@ -10,13 +10,11 @@ function Home() {
 
         <div className="slider__component">
             <Header />
-            
             <Slider />
-            <div>
-
-            <h1>HALLO</h1>
-
+            <div className="searchbar__wrapper">
+                
             </div>
+        
             <Footer />
          </div>
     )

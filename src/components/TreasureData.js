@@ -15,7 +15,7 @@ const treasureData = [
         Besonderheit: "essbar",
         Verwechslungsgefahr: "Weiße Giftegerling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/anisegerling.jpg',
+        img: '/images/anisegerling.jpg',
     },
     {
         id: 2,
@@ -34,7 +34,7 @@ const treasureData = [
         Verwechslungsgefahr: "Safranschirmling, Kompostegerling, Perlhuhnegerling",
         Verwechslungsgefahr: "Weiße Giftegerling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/waldegerling.jpg',
+        img: '/images/waldegerling.jpg',
     },
     {
         id: 3,
@@ -52,7 +52,7 @@ const treasureData = [
         Besonderheit: "jung schmackhaft, später weich, schleimig",
         Verwechslungsgefahr: "Braune Rotkappe, Birkenrotkappe",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/birkenröhrling.jpg',
+        img: '/images/birkenröhrling.jpg',
     },
     {
         id: 4,
@@ -70,7 +70,7 @@ const treasureData = [
         Besonderheit: "wohlschmeckend, können Allergien verursachen",
         Verwechslungsgefahr: "Goldröhrling, Sandröhrling, Körnchenröhrling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/butterröhrling.jpg',
+        img: '/images/butterröhrling.jpg',
     },
     {
         id: 5,
@@ -88,7 +88,7 @@ const treasureData = [
         Besonderheit: "gekocht essbar, roh giftig",
         Verwechslungsgefahr: "Netzstielige Hexenröhrling, Satansröhrling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/flockenstieligerhexenröhrling.jpg',
+        img: '/images/flockenstieligerhexenröhrling.jpg',
     },
     {
         id: 6,
@@ -106,7 +106,7 @@ const treasureData = [
         Besonderheit: "essbar",
         Verwechslungsgefahr: "Körnchenröhrling, Goldröhrling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/kuhröhrling.jpg',
+        img: '/images/kuhröhrling.jpg',
     },
     {
         id: 7,
@@ -123,7 +123,7 @@ const treasureData = [
         Besonderheit: "essbar, guter Trockenpilz",
         Verwechslungsgefahr: "Ziegenlippe, Sandröhrling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/maronenröhrling.jpg',
+        img: '/images/maronenröhrling.jpg',
     },
     {
         id: 8,
@@ -141,7 +141,7 @@ const treasureData = [
         Besonderheit: "ausgezeichneter Speisepilz",
         Verwechslunsgefahr: "Gallenröhrling, Satansröhrling, Flockenstielige Hexenröhrling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/steinpilz.jpg',
+        img: '/images/steinpilz.jpg',
     },
     {
         id: 9,
@@ -159,7 +159,7 @@ const treasureData = [
         Besonderheiten: "essbar",
         Verwechslungsgefahr: "Rotfußröhrling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/hellstieligerfilzröhrling.jpg',
+        img: '/images/hellstieligerfilzröhrling.jpg',
     },
     {
         id: 10,
@@ -177,7 +177,7 @@ const treasureData = [
         Besonderheiten: "tödlich giftig",
         Verwechslungsgefahr: "Frauentäubling, Grünling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/grünerknollenblätterpilz.jpg',
+        img: '/images/grünerknollenblätterpilz.jpg',
     },
     {
         id: 11,
@@ -195,7 +195,7 @@ const treasureData = [
         Besonderheiten: "sehr giftig",
         Verwechslungsgefahr: "Perlpilz, Gedrungener Wulstling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/pantherpilz.jpg',
+        img: '/images/pantherpilz.jpg',
     },
     {
         id: 12,
@@ -213,7 +213,7 @@ const treasureData = [
         Besonderheiten: "giftig, aber nicht tödlich",
         Verwechslungsgefahr: "Kaiserling, in Deutschland selten",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/roterfliegenpilz.jpg',
+        img: '/images/roterfliegenpilz.jpg',
     },
     {
         id: 13,
@@ -230,7 +230,7 @@ const treasureData = [
         Besonderheiten: "essbar, guter Trockenpilz",
         Verwechslungsgefahr: "Grauer Leistling, Schwarzer Kelchpilz",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/herbsttrompete.jpg',
+        img: '/images/herbsttrompete.jpg',
     },
     {
         id: 14,
@@ -248,7 +248,7 @@ const treasureData = [
         Besonderheiten: "essbar",
         Verwechslungsgefahr: "Falscher Pfifferling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/pfifferling.jpg',
+        img: '/images/pfifferling.jpg',
     },
     {
         id: 15,
@@ -266,7 +266,7 @@ const treasureData = [
         Besonderheiten: "essbar",
         Verwechslungsgefahr: "Tigerritterling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/erdritterling.jpg',
+        img: '/images/erdritterling.jpg',
     },
     {
         id: 16,
@@ -284,7 +284,7 @@ const treasureData = [
         Besonderheiten: "essbar",
         Verwechslungsgefahr: "Feldtrichterling, Mairisspilz",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/maipilz.jpg',
+        img: '/images/maipilz.jpg',
     },
     {
         id: 17,
@@ -302,7 +302,7 @@ const treasureData = [
         Besonderheiten: "roh giftig, gekocht ungenießbar",
         Verwechslungsgefahr: "Grünling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/schwefelritterling.jpg',
+        img: '/images/schwefelritterling.jpg',
     },
     {
         id: 18,
@@ -320,7 +320,7 @@ const treasureData = [
         Besonderheiten: "essbar",
         Verwechslungsgefahr: "Safranschirmling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/riesenschirmpilz.jpg',
+        img: '/images/riesenschirmpilz.jpg',
     },
     {
         id: 19,
@@ -338,7 +338,7 @@ const treasureData = [
         Besonderheiten: "essbar",
         Verwechslungsgefahr: "Grüner Knollenblätterpilz",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/frauentäubling.jpg',
+        img: '/images/frauentäubling.jpg',
     },
     {
         id: 20,
@@ -356,7 +356,7 @@ const treasureData = [
         Besonderheiten: "essbar",
         Verwechslungsgefahr: "Speitäubling, Heringstäubling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/speisetäubling.jpg',
+        img: '/images/speisetäubling.jpg',
     },
     {
         id: 21,
@@ -374,7 +374,7 @@ const treasureData = [
         Besonderheiten: "giftig, verursacht Verdauungsstörungen",
         Verwechslungsgefahr: "Apfeltäubling, Heringstäubling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/speitäubling.jpg',
+        img: '/images/speitäubling.jpg',
     },
     {
         id: 22,
@@ -392,7 +392,7 @@ const treasureData = [
         Besonderheiten: "essbar, gut kochen",
         Verwechslungsgefahr: "Riesenrötling",
         position: {latitude: 53.5510846, longitude: 9.9936819},
-        img: '../images/nebelkappe.jpg',
+        img: '/images/nebelkappe.jpg',
     },
 
 
@@ -408,7 +408,7 @@ const treasureData = [
         Hutfarbe: "Trägt für gewöhnlich Sonntags einen Förster-Hut",
         Stielfarbe: "Weiß für gewöhnlich",
         location: "location",
-        img: '../images/wald1.jpg',
+        img: '/images/wald1.jpg',
     },
     {
         id: 6,
@@ -418,7 +418,7 @@ const treasureData = [
         Hutfarbe: "Rekitzchen",
         Stielfarbe: "Weiß für gewöhnlich",
         location: "location",
-        img: '../images/wald2.jpg',
+        img: '/images/wald2.jpg',
     },
     {
         id: 7,
@@ -428,7 +428,7 @@ const treasureData = [
         Hutfarbe: "Der röhrende Hirsch",
         Stielfarbe: "Weiß für gewöhnlich",
         location: "location",
-        img: '../images/wald3.jpg',
+        img: '/images/wald3.jpg',
     },
     {
         id: 8,
@@ -438,7 +438,7 @@ const treasureData = [
         Hutfarbe: "Der röhrende Hirsch",
         Stielfarbe: "Weiß für gewöhnlich",
         location: "location",
-        img: '../images/wald4.jpg',
+        img: '/images/wald4.jpg',
     },
 
     /* BÄUME BÄUME BÄUME BÄUME BÄUME BÄUME */
@@ -450,7 +450,7 @@ const treasureData = [
         Merkmale: "Baum Rinde Größe",
         Hutfarbe: "Baumbraun",
         location: "location",
-        img: '../images/wald5.jpg',
+        img: '/images/wald5.jpg',
     },
     {
         id: 10,
@@ -459,7 +459,7 @@ const treasureData = [
         Merkmale: "Baum Rinde Größe",
         Hutfarbe: "Baumbraun",
         location: "location",
-        img: '../images/wald6.jpg',
+        img: '/images/wald6.jpg',
     },
     {
         id: 11,
@@ -468,7 +468,7 @@ const treasureData = [
         Merkmale: "Baum Rinde Größe",
         Hutfarbe: "Baumbraun",
         location: "location",
-        img: '../images/wald7.jpg',
+        img: '/images/wald7.jpg',
     },
     {
         id: 12,
@@ -477,7 +477,7 @@ const treasureData = [
         Merkmale: "Baum Rinde Größe",
         Hutfarbe: "Baumbraun",
         location: "location",
-        img: '../images/heide1.jpg',
+        img: '/images/heide1.jpg',
     },
 
     /* KRÄUTER KRÄUTER KRÄUTER KRÄUTER KRÄUTER KRÄUTER */
@@ -488,7 +488,7 @@ const treasureData = [
         name: "Bärlauch",
         Merkmale: "Baum Rinde Größe",
         location: "location",
-        img: '../images/heide2.jpg',
+        img: '/images/heide2.jpg',
     },
     {
         id: 14,
@@ -496,7 +496,7 @@ const treasureData = [
         name: "Salbei",
         Merkmale: "Baum Rinde Größe",
         location: "location",
-        img: '../images/heide3.jpg',
+        img: '/images/heide3.jpg',
     },
     {
         id: 15,
@@ -504,7 +504,7 @@ const treasureData = [
         name: "Sauerampfer",
         Merkmale: "Baum Rinde Größe",
         location: "location",
-        img: '../images/tiere1.jpg',
+        img: '/images/tiere1.jpg',
     },
     {
         id: 16,
@@ -512,7 +512,7 @@ const treasureData = [
         name: "Rosmarin",
         Merkmale: "Baum Rinde Größe",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
 
     /* MOORE MOORE MOORE MOORE MOORE MOORE MOORE */
@@ -524,7 +524,7 @@ const treasureData = [
         name: "Wittmoor",
         Merkmale: "Baum Rinde Größe",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
     {
         id: 18,
@@ -532,7 +532,7 @@ const treasureData = [
         name: "Schnaakenmoor",
         Merkmale: "Baum Rinde Größe",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
     {
         id: 19,
@@ -540,7 +540,7 @@ const treasureData = [
         name: "Schnaakenmoor",
         Merkmale: "Baum Rinde Größe",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
     {
         id: 20,
@@ -548,7 +548,7 @@ const treasureData = [
         name: "Schnaakenmoor",
         Merkmale: "Baum Rinde Größe",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
 
     /* SNACKS SNACKS SNACKS SNACKS SNACKS SNACKS SNACKS */
@@ -558,28 +558,28 @@ const treasureData = [
         treasure: "Snacks",
         name: "Bucheckern",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
     {
         id: 22,
         treasure: "Snacks",
         name: "Bucheckern",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
     {
         id: 23,
         treasure: "Snacks",
         name: "Bucheckern",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
     {
         id: 24,
         treasure: "Snacks",
         name: "Bucheckern",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
 
     /* GEWÄSSER GEWÄSSER GEWÄSSER GEWÄSSER GEWÄSSER GEWÄSSER */
@@ -590,28 +590,28 @@ const treasureData = [
         treasure: "Gewässer",
         name: "Tümpel",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
     {
         id: 26,
         treasure: "Gewässer",
         name: "Tümpel",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
     {
         id: 27,
         treasure: "Gewässer",
         name: "Tümpel",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
     {
         id: 28,
         treasure: "Gewässer",
         name: "Tümpel",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
 
 
@@ -623,28 +623,28 @@ const treasureData = [
         treasure: "Gewässer",
         name: "Tümpel",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
     {
         id: 30,
         treasure: "Gewässer",
         name: "Tümpel",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
     {
         id: 31,
         treasure: "Gewässer",
         name: "Tümpel",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
     {
         id: 32,
         treasure: "Gewässer",
         name: "Tümpel",
         location: "location",
-        img: '../images/tiere2.jpg',
+        img: '/images/tiere2.jpg',
     },
 ]
 
