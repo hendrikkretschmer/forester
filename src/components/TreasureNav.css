@@ -1,5 +1,6 @@
 .treasure__wrapper--top {
     diplay: flex;
+    margin-top: 70px;
 }
 
 
@@ -67,7 +68,7 @@
     flex-direction: column;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 0px;
     border: none;
     border-color: red;
@@ -187,8 +188,14 @@ button:focus{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-color: #faebd4;
+    /*background-color: #faebd4;*/
+    /*background-color: #5eb990;*/
+    /*background-color: #faebd4;*/
+    /*background-color: #ff9451;*/
 
+    background-color:#063a38;
+    
+    height: 280px;
     /* 
     border: solid;
     border-width: thin;
@@ -205,7 +212,7 @@ button:focus{
     
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     margin-top: 0px;
 
     border-radius: 20px;
@@ -235,16 +242,17 @@ button:focus{
     /*border-color: #faebd4;*/
     /*border-color: #5eb990;*/
     /*border-color: #5eb990;*/
-    padding: 0px;
+    padding: 5px;
     margin: 0px;
 
     box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5); 
 } 
 
 .eichel__icon--wrapper {
-    background-color: #faebd4;
+    /*background-color: #faebd4;*/
+    background-color: #5eb990;
     border-radius: 50%;
-    margin: 5px;
+    margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -258,14 +266,14 @@ button:focus{
     padding-top: 0px;
     margin-bottom: 0px;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 33px;
+    height: 23px;
 }
 
 .treasure__category--headline {
-    padding-top: 11px;
-    padding-left: 5px;
-    padding-bottom: 2px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 4px;
     margin: 0px;
     /*color: #063a38;*/
     /*color: #5eb990;*/
@@ -282,7 +290,8 @@ button:focus{
     width: 350px;
     height: 150px;
     margin-left: 0x;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
 }
 
 .treasure__info--text {
@@ -291,42 +300,56 @@ button:focus{
     font-size: 12px;
 }
 
-.treasure__card--bottom {
+/*.treasure__card--bottom {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: row;
     background-color: none;
+    padding-top: 0px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 0px;
-    padding-bottom: 5px;
-    margin-top: 0px;
     /*background-color: #063a38;*/
     /*background-color: #5eb990;*/
     /*background-color: #faebd4;*/
-    border: none;
+    /*border: solid;
 
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}*/
 
-    text-align: center;
+.treasure__location--wrapper {
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+    /*background-color: #faebd4;*/
+    /*background-color: #5eb990;*/
+    /*background-color: #faebd4;*/
+    /*background-color: #ff9451;*/
 }
 
 .location__icon--wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: 5px;
     padding: 0px;
     margin-top: 5px;
     border-radius: 50%;
-    background-color: black;
+    border: none;
+    /*background-color: #faebd4;*/
+    background-color: #5eb990;
+    
+    /*background-color: #ff9451;*/
+    
+    /*color: #063a38;*/
+    /*background-color: #5eb990;*/
 }
 
 .location__icon {

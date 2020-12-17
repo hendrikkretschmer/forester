@@ -17,7 +17,7 @@ function SearchBar() {
                 <div className="input__label--wrapper">
                 <img src={explore_icon_25x25} className="input__icon" alt="input__icon" />
                 
-                <label className="label__title">Your current location</label>
+                <label className="label__title">Set location</label>
                 </div>
 
                 <input type="text" placeholder="type in your current position" className="input__field"></input>

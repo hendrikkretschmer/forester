@@ -12,6 +12,7 @@ import planticon from '../icons/treasureicons/herbsicon2.svg';
 import mooricon from '../icons/treasureicons/watericon2.svg';
 import treasuresicon from '../icons/treasure_icon_25x25.svg';
 import exploreicon from '../icons/explore_icon_25x25.svg';
+import bookmark from '../icons/treasureicons/bookmark_darkgreen1.svg';
 import TreasureData from './TreasureData';
 
 
@@ -91,8 +92,20 @@ function TreasureNav() {
             <div className="treasure__image">
               <img src={treasure.img} className="treasure__image--item" /*width="285" height="170"*/ />
             </div>
-
-            <div className="treasure__card--bottom" key={treasure.id}>
+            
+            <div className="treasure__location--wrapper">
+            
+            <div className="location__icon--wrapper">
+              <Link to={`/treasurepage/${treasure.treasure.toLowerCase()}/${treasure.id}`}>
+                <img
+                  className="location__icon"
+                  src={bookmark}
+                  width="20"
+                  height="20"
+                  alt="locationicon"
+                />
+               </Link>
+             </div>
 
               <div className="location__icon--wrapper">
               <Link to={`/treasurepage/${treasure.treasure.toLowerCase()}/${treasure.id}`}>
@@ -104,8 +117,10 @@ function TreasureNav() {
                   alt="locationicon"
                 />
                </Link>
-              </div>
+             </div>
+
              
+
             </div>
           </div>
         ))}
