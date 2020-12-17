@@ -6,6 +6,7 @@ function SearchBar() {
 
     return (
         <div className ="searchbar__section--wrapper">
+            <div className="searchbar__section--topline"></div>
             <div className="searchbar__top--wrapper">
 
             </div>

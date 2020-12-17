@@ -3,6 +3,15 @@
     border-color:lawngreen;
 }
 
+.searchbar__section--topline {
+    /*background-color: #063a38;*/
+    /*background-color: #faebd4;*/
+    background-color: #5eb990;
+    width: 100%;
+    height: 0.5px;
+    border: none;
+    boder-color: red;
+}
 .searchbar__top--wrapper {
     background-color: #063a38;
     /*background-color: #faebd4;*/
@@ -12,7 +21,7 @@
     align-items: flex-start;
     
     width: 100%;
-    height: 70px;
+    height: 60px;
     margin: 0px;
     padding: 0px;
     /*border-bottom-left-radius: 10px;
@@ -94,7 +103,7 @@
 
 .label__title {
     color: #faebd4;
-    margin-top: 3px;
+    margin-top: 5px;
     margin-left: 5px;
     padding: 0px;
     text-shadow: 0px 0px 5px rgba(0,0,0,0.58);
@@ -102,8 +111,8 @@
             
 .input__field {
     /*background-color: #063a38;*/
-    /*background-color: #faebd4;*/
-    background-color: #5eb990;
+    background-color: #faebd4;
+    /*background-color: #5eb990;*/
     border: none;
     border-radius: 20px;
     padding-top: 10px;

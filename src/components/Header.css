@@ -13,7 +13,25 @@
     width: 100%;
 }
 
+.button__left--history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: #063a38;
+
+}
+
+
 .arrow__icon--left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-left: 10px;
     padding-top: 10px;
 }
