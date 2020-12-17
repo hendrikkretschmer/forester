@@ -2,11 +2,17 @@ body {
     background-image: url('../images/forest_from_above_farbe.jpg');
 }
 
-.searchbar__wrapper {
+/*.searchbar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     height: 272px;
     border: solid;
     border-color: red;
-}
+}*/
+
+
+
 
 /*.content__under--slider {
     display: flex;
