@@ -1,0 +1,326 @@
+.treasure__card--wrapper {
+    border: none;
+    border-color: red;
+    height: 250px;
+    box-shadow: 0px 0px 20px 3px rgba(6, 6, 6, 0.68);
+}
+
+
+/* GESAMTER BUTTON CONTAINER, DER LINKS UND RECHTS WRAPPED */
+
+.treasure__allbuttons--container {
+    border: solid;
+    border-color: lawngreen;
+    border-width: thin;
+    
+    
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+    margin-top: 120px;
+    z-index: 100;
+}
+
+/* LINKER BUTTON PFEIL CONTAINER */
+.treasure__buttonbox--left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 290px;
+    background-color: #faebd4;
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    opacity: 0.8;
+}
+
+.treasure__buttonbox--left:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0px 5px rgba(208, 255, 237, 0.952);
+}
+
+
+.treasure__button--right{
+    border: none;
+    width: 10px;
+    height: 10px;
+    padding-left: 3px;
+}
+
+
+/* RECHTER BUTTON PFEIL CONTAINER */
+.treasure__buttonbox--right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #faebd4;
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.5);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    opacity: 0.8;
+}
+
+.treasure__buttonbox--right:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0px 5px rgba(208, 255, 237, 0.952);
+}
+.treasure__button--right {
+    border: none;
+    width: 10px;
+    height: 10px;
+    padding-left: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* DER CONTENT, DER ÜBER DIE FORESTDATA AUSGEGEBEN WIRD */
+
+.treasure__container--image {
+    border: none;
+    border-color: rgb(4, 0, 255);
+    border-width: thin;
+    margin: 0px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.treasure__main--image {
+    border: none;
+    border-color: rgb(252, 193, 0);
+    border-width: thin;
+    width:375px;
+    height:250px;
+}
+
+/* WRAPPED DIE HEADLINE UND DEN TEXT */
+
+.treasure__title--wrapper {
+    border: none;
+    border-color: lawngreen;
+    position: absolute;
+    margin-top: 175px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.treasure__title {
+    border: none;
+    border-color: lawngreen;
+    color: #faebd4;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+
+.treasure__text {
+    border: solid;
+    border-color: lawngreen;
+    color: #faebd4;
+    padding-left: 10px;
+    margin-top: 5px;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+
+/* PARAGRAPH PARAGRAPH PARAGRAPH PARAGRAPH PARAGRAPH PARAGRAPH */
+
+/* BOOKMARK */
+
+.bookmark__icon--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-width: thin;
+    border-color:rgb(0, 0, 0);
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    opacity: none !important;
+    transition: all .2s ease-in-out;
+}
+
+.bookmark__icon--wrapper:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0px 5px rgba(208, 255, 237, 0.952);
+}
+
+.bookmark__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: none;
+    
+    border-radius: 50%;
+    /*background-color: #063a38;*/
+    background-color: #5eb990;
+    /*background-color: #faebd4;*/
+    opacity: none !important;
+}
+
+
+.paragraph__wrapper {
+    border: none;
+    border-color: lawngreen;
+}
+
+.zitat {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: none;
+    border-width: thin;
+    border-color: #faebd4;
+    /*color: #faebd4;*/
+    color: #063a38;
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.1);
+    background-color: #faebd4;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.quotation {
+    width: 17px;
+    height: 17px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.paragraph__icon--wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.paragraph__info--headline5 {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+
+   border: none;
+
+    line-height: 1.4;
+}
+
+.paragraph__info--merkmale {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid;
+    border-width: thin;
+    border-color: #faebd4;
+    color: #faebd4;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+
+    box-shadow: 0px 0px 22px 0px rgba(6,58,56,0.1);
+
+    border-radius: 10px;
+}
+
+.paragraph__listitems {
+    border: solid;
+    border-width: thin;
+    border-color: #faebd4;
+    color: #faebd4;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    line-height: 2;
+}
+
+.trennlinie {
+    background: #faebd4;
+    border: thin;
+    height: 0.5px;
+    width: 80%;  
+}
+
+.treasure__subline--wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #063a38;
+    /*background-color: #5eb990;*/
+    /*background-color: #faebd4;*/
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+}
+
+/*
+.footer__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    border:none;
+    border-color: red;
+    position: relative;
+}
+
+.main__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 700px;
+}
+*/

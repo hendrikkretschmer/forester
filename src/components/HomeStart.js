@@ -3,6 +3,7 @@ import './HomeStart.css';
 import Header from './Header';
 import Footer from './Footer';
 import Slider from './Slider';
+import SearchBar from './SearchBar';
 
 function Home() {
 
@@ -12,7 +13,7 @@ function Home() {
             <Header />
             <Slider />
             <div className="searchbar__wrapper">
-                
+                <SearchBar />
             </div>
         
             <Footer />
