@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Treasurepage from './components/Treasurepage';
 import Forestpage from './components/Forestpage';
 import SignupForm from './components/SignupForm';
+import SignupSuccess from './components/SignupSuccess';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/treasures" component={Treasures} />
         <Route path="/profile" component={Profile} />
         <Route path="/signup" component={SignupForm} />
+        <Route path="/signupsuccess" component={SignupSuccess} />
         <Route path="/forestpage/:forestId" component={Forestpage} />
         <Route path="/treasurepage/:treasureCategory/:treasureId" component={Treasurepage} />
       </Switch>

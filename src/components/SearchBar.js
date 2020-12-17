@@ -21,7 +21,9 @@ function SearchBar() {
                 <label className="label__title">Set location</label>
                 </div>
 
-                <input type="text" placeholder="type in your current position" className="input__field"></input>
+                <input type="text" placeholder="type in your current position" className="input__field">
+                
+                </input>
                 </div>
                 
 
