@@ -14,8 +14,8 @@ import { useParams } from 'react-router-dom';
 function Forestpage() {
   const [index, setIndex] = useState(0);
   const [forest, setForest] = useState([]);
-  // http://localhost:3000/forestpage/:forestCategory/:forestId (mischwald/1, 2, 3 …)
-  const { forestCategory, forestId } = useParams();
+  // http://localhost:3000/forestpage/:forestId (mischwald/1, 2, 3 …)
+  const {forestId } = useParams();
 
   const slideRight = () => {
     setIndex((index + 1) % forest.length);
@@ -31,8 +31,7 @@ function Forestpage() {
 
   useEffect(() => {
     const currentForestIndex = forest.findIndex(
-      t => t.forest.toLowerCase() === forestCategory.toLowerCase()
-      && t.id === parseInt(forestId)
+      f => f.id === parseInt(forestId)
     );
     if (currentForestIndex >= 0) {
       setIndex(currentForestIndex);
@@ -43,8 +42,8 @@ function Forestpage() {
     setForest(forestData);
   }, []); // dependency array: empty array -> run once
 
-  function clickMe(category) {
-    setForest(forestData.filter((forest) => forest.forest === category));
+  function clickMe(forest) {
+    setForest(forestData.filter((forest) => forest.forest === forest));
   }
 
 

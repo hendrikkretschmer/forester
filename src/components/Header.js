@@ -8,11 +8,11 @@ import {BrowserRouter as Router, useHistory} from 'react-router-dom';
 
 
 function Header() {
-const history= useHistory();
+    const history= useHistory();
 
-const handleHistory = () => {
-    history.push("/");
-}
+    const handleHistory = () => {
+        history.push("/");
+    }
     return (
         <Router>
         <div className="menu__top">

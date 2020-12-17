@@ -22,7 +22,7 @@ function App() {
         <Route path="/treasures" component={Treasures} />
         <Route path="/profile" component={Profile} />
         <Route path="/signup" component={SignupForm} />
-        <Route path="/forestpage/:forestCategory/:forestId" component={Forestpage} />
+        <Route path="/forestpage/:forestId" component={Forestpage} />
         <Route path="/treasurepage/:treasureCategory/:treasureId" component={Treasurepage} />
       </Switch>
     
