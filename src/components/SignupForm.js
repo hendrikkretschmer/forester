@@ -2,6 +2,8 @@ import React from 'react';
 import './SignupForm.css';
 import UseForm from './UseForm';
 import ValidateInfo from './ValidateInfo';
+import Header from './Header';
+import {Link} from 'react-router-dom';
 
 const SignupForm = ({submitForm}) => {
     const {handleChange, values, handleSubmit, errors} 
@@ -9,6 +11,7 @@ const SignupForm = ({submitForm}) => {
 
     return(
         <div className="login__container">
+            <Header />
             <div className="signup__headline">
                 <h2 className="Sign">Sign&nbsp;</h2><h2 className="Up">Up</h2>
             </div>
@@ -92,12 +95,12 @@ const SignupForm = ({submitForm}) => {
                 </div>
 
             <div className="submit__container">
-                <button 
+            <Link to="/"><button 
                 className="form__input--button"
                 type="submit">
                 Sign Up
                 </button>
-            
+            </Link>
                 <span 
                 className="form__input--login">
                 Already have an account? Login&nbsp;   
@@ -105,7 +108,11 @@ const SignupForm = ({submitForm}) => {
                 </span>
             </div>
         </form>
-           
+        <div className="signup__footer--bottom">
+            <p className="signup__footer--impressum">
+                Copyright: Hendrik Kretschmer / Luruper Weg 4 / 20257 Hamburg
+            </p>
+        </div>
         </div>
     );
 }

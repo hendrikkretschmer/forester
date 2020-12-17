@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
     <div className="App">
-      <Header />
+      
       <Switch>
         <Route path="/" exact component={HomeStart} />
         <Route path="/explore" component={Explore} />
@@ -25,7 +25,7 @@ function App() {
         <Route path="/forestpage/:forestCategory/:forestId" component={Forestpage} />
         <Route path="/treasurepage/:treasureCategory/:treasureId" component={Treasurepage} />
       </Switch>
-    <Footer />
+    
     </div>
     </Router>
   );

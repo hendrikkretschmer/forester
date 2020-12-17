@@ -4,7 +4,9 @@ import './Profile.css';
 import profilepicture from '../images/forest_fog3.jpg';
 import Header from './Header';
 import Footer from './Footer';
-
+import bookmark from '../icons/treasureicons/bookmark_darkgreen1.svg';
+import treeicon from '../icons/treasureicons/treeicon1.svg';
+import pilzicon1 from '../icons/treasureicons/pilzicon2.svg';
 
 function Profile() {
 
@@ -22,28 +24,99 @@ function Profile() {
             </div>
             
             <div className="container__profile--data">
-                <div className="profile__data--item">
-               
-                <h3 className="profile__data--headline3">Forests visited</h3>
+                
+                <div className="profile__data--items">
+                
+                <div className="profile__data--icon">
+                <img src={treeicon} width="25" height="25" className="bookmark__profile" alt="bookmark__profile" />
+                </div>
+                <h3 className="profile__data--headline3">Activities</h3>
+                
                 </div>
 
-                <div className="profile__data--item">
-              
-                <h3 className="profile__data--headline3">Found Treasures</h3>
+
+                <div className="profile__data--items">
+                
+                <div className="profile__data--icon">
+                <img src={bookmark} width="20" height="20" className="bookmark__profile" alt="bookmark__profile" />
+                </div>
+                <h3 className="profile__data--headline3">Bookmarks</h3>
+                
                 </div>
 
-                <div className="profile__data--item">
-               
-                <h3 className="profile__data--headline3">Data</h3>
+                <div className="allbookmarks__wrapper">
+                
+                <div className="bookmark__list--items">
+                    <div className="bookmark__listitem--forest">
+                        <h3 className="bookmark__title">Steinpilz</h3>
+                        <div className="bookmark__listitem--image">
+                        <img src={profilepicture} width="70" height="70" alt="listitem__image" />
+                        
+                        <div className="pilzicon__wrapper">
+                        <img className="pilzicon__size" src={pilzicon1} width="15" height="15" alt="pilzicon" />
+                        </div>
+
+                        </div>
+                    </div>
                 </div>
 
-                <div className="profile__data--item">
-                <h3 className="profile__data--headline3">Data</h3>
+                <div className="bookmark__list--items">
+                    <div className="bookmark__listitem--forest">
+                        <h3 className="bookmark__title">Steinpilz</h3>
+                        <div className="bookmark__listitem--image">
+                        <img src={profilepicture} width="70" height="70" alt="listitem__image" />
+                        
+                        <div className="pilzicon__wrapper">
+                        <img className="pilzicon__size" src={pilzicon1} width="15" height="15" alt="pilzicon" />
+                        </div>
+
+                        </div>
+                    </div>
                 </div>
+
+                <div className="bookmark__list--items">
+                    <div className="bookmark__listitem--forest">
+                        <h3 className="bookmark__title">Steinpilz</h3>
+                        <div className="bookmark__listitem--image">
+                        <img src={profilepicture} width="70" height="70" alt="listitem__image" />
+                        
+                        <div className="pilzicon__wrapper">
+                        <img className="pilzicon__size" src={pilzicon1} width="15" height="15" alt="pilzicon" />
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div className="bookmark__list--items">
+                    <div className="bookmark__listitem--forest">
+                        <h3 className="bookmark__title">Steinpilz</h3>
+                        <div className="bookmark__listitem--image">
+                        <img src={profilepicture} width="70" height="70" alt="listitem__image" />
+                        
+                        <div className="pilzicon__wrapper">
+                        <img className="pilzicon__size" src={pilzicon1} width="15" height="15" alt="pilzicon" />
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                
+
+
+
+
+                </div>
+
+
+                </div>
+
+                
             </div>
+            <Footer />
         </div>
-        <Footer />
-        </div>
+        
     )
 }
 

@@ -10,8 +10,8 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-top: 80px;
 }
 
 .profile__picture--wrapper {
@@ -19,9 +19,9 @@ body {
 }
 
 .container__username--headline2 {
-color: #92fffb;
+color: #faebd4;
 font-size: 14px;
-margin-top: 10px;
+margin-top: 0px;
 }
 
 .container__profile--data {
@@ -32,17 +32,107 @@ margin-top: 10px;
     color:#faebd4;
     margin: 0;
     padding-left: 20px;
+    border: none;
+    border-color:lawngreen;
 }
 
 .profile__data--headline3 {
-    padding-bottom: 5px;
+    padding-bottom: 0px;
+    margin-top: 9px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.forests__visited {
+    margin-top: 5px;
+}
+
+.profile__data--items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: none;
+    border-color: lawngreen;
+
+}
+
+.profile__data--icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faebd4;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     margin: 0px;
 }
 
-.profile__data--item {
+
+
+/*///////////////////////////////////////////////////////////////*/
+
+.bookmark__list--items {
+    border: none;
+    border-color: rgb(229, 255, 0);
+    border-radius: 10px;
+    /*background-color:#5eb990;*/
+    background-color: #063a38;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-bottom: 26px;
+    margin: 5px;
+}
 
+.bookmark__listitem--forest {
+    border: none;
+    border-color: red;
+}
+
+.bookmark__title {
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #faebd4;
+    /*color:#063a38;*/
+}
+
+.bookmark__listitem--image {
+    border: none;
+    border-color: red;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.listitem__image {
+    border: solid;
+    border-color: red;
+}
+
+.pilzicon__wrapper {
+    border: none;
+    border-width: thin;
+    border-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23px;
+    height: 23px;
+    margin: 3px;
+    margin-left: 40px;
+    background-color: #faebd4;
+    background-color: #5eb990;
+}
+
+.pilzicon_size {
+    width: 20px;
+}
+
+.allbookmarks__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
 }
