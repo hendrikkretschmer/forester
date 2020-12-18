@@ -13,7 +13,7 @@ const forestData = [
         id: 2,
         forest: "forest",
         name: "Fischbeker Heide",
-        text: "Hier sämtliche Informationen, die den Wald beschreiben",
+        text: "Das Naturschutzgebiet Fischbeker Heide erstreckt sich südlich von Hamburg zwischen Fischbek und Neu Wulmstorf und umfasst eine Fläche von etwa 773 ha.",
         textlong: "In den trockenen Heidegebieten wachsen außerdem Rosmarinheide, Ginster und verschiedenen Beerenarten, die teilweise schon seit der letzten Eiszeit vorkommen - wie Krähen- und Moosbeere und die für dieses Verbreitungsgebiet äußerst seltene Bärentraube. Auf Feuchtheide und Moorflächen ist der Sonnentau, die Ährenlilie oder das weiße Schnabelried zu finden. Die Quellmoore beherbergen unter anderem den Gagelstrauch oder den Lungenenzian.",
         img: "../images/fischbekerheide.jpg",
         position: {latitude: 53.458099, longitude: 9.8416605}
@@ -23,7 +23,7 @@ const forestData = [
         id: 3,
         forest: "forest",
         name: "Raakmoor",
-        text: "Hier sämtliche Informationen, die den Wald beschreiben",
+        text: "Das Raakmoor bietet romantische Wanderwege entlang von Wasserläufen unweit der Hamburger Innenstadt.",
         textlong: "Im Nordwesten Hamburgs in der Hummelsbüttler Feldmark liegt das Naturschutzgebiet Raakmoor, das mit seinen achtzehn Hektar zu den kleinsten Naturschutzgebieten der Hansestadt gehört. Das jetzige Übergangsmoor ist ursprünglich ein Hochmoor gewesen, das durch Abtorfungen und Entwässerungen zerstört wurde, damit die Fläche für landwirtschaftliche Zwecke genutzt werden konnte. Knickreste und verschüttete Gräben zeugen heute noch davon. Die monotypische Pflanzenwelt verschwand bis auf wenige Restbestände.",
         img: "../images/sachsenwald.jpg",
         position: {latitude: 53.659437, longitude: 10.034970}
@@ -34,7 +34,7 @@ const forestData = [
         forest: "forest",
         name: "Hasselbrack",
 	    textlong: "Der Hasselbrack ist ein herrlicher Wandergipfel in den idyllischen Harburger Bergen. Mit 116 Metern stellt er dabei die höchste Erhebung Hamburgs dar. Du kannst hier sowohl im Sommer als auch im Winter wunderbare Wanderungen unternehmenUm die Spitze des Hasselbracks zu erreichen, solltest du GPS oder eine Karte mit Kompass mitbringen. Da die Region unter Naturschutz steht und Heimat seltener Vögel ist, triffst du hier nämlich auf keinerlei Wegweiser. Dein Auto kannst du in Alvesen parken. Von hier machst du dich auf den Weg zum Waldrand im Rüderstieg. Nun geht es für dich etwa sechs Kilometer über nicht gekennzeichnete Pfade und Waldwege.",
-        text:"Hier sämtliche Informationen, die den Wald beschreiben",
+        text:"Der Hasselbrack in den Harburger Bergen ist mit 116,2 m ü. NHN die höchste natürliche Erhebung in Hamburg und liegt an der Grenze zu Niedersachsen.",
         img: "../images/hasselbrack.jpg",
         position: {latitude: 53.4302124, longitude: 9.8638625}
     },
@@ -42,7 +42,7 @@ const forestData = [
         id: 5,
         forest: "forest",
         name: "Staatsforst Hamburg",
-        text: "Hier sämtliche Informationen, die den Wald beschreiben",
+        text: "Nirgendwo riecht und raschelt es so schön wie im Wald. Zwischen meterhohen Bäumen, rauschenden Blättern und frechen Eichhörnchen könnt ihr den wilden Großstadttrubel ganz weit hinter euch lassen. Wir nehmen euch mit an die frische Luft und verraten euch unsere sieben Lieblingsorte für Waldspaziergänge. Feste Schuhe an, fertig, los!",
 	    textlong: "Hügeliges Mischwaldgebiet mit alten Beständen an Douglasie, großen Buchen, Eichen und Fichten. Rund 50 km Wanderwege und 10 km Reitwege stehen den Erholungssuchenden zur Verfügung. Am Vahrenwinkelweg gibt es einen Walderholungsplatz mit Spielgeräten. Das Revier lebt von der Vielfalt und der Verschiedenartigkeit der Waldbilder. Neben mächtigen, alten Buchen, Eichen und Douglasien mit natürlicher Verjüngung in unterschiedlichen Entwicklungsstadien erfolgt die Umwandlung sich durch Windwurf und Käferbefall auflösender Fichtenreinbestände, zum Teil durch natürliche Wiederbewaldung und zum Teil durch menschliche Unterstützung. Zahlreiche Restaurationsbetriebe befinden sich in der Nähe, außerdem der Wildpark Schwarze Berge und das Freilichtmuseum Kiekeberg in Ehestorf.",
         img: "../images/staatsforsthamburg.jpg",
         position: {latitude: 53.4611602, longitude: 9.9142524}
@@ -52,7 +52,7 @@ const forestData = [
         forest: "forest",
         name: "Wildgehege Klövensteen",
         textlong: "Der Klövensteen wurde als größeres Waldgebiet des Hamburg-Altonaer Umlandes erst relativ spät erkundet. Etwa im Jahr 1910 wurde der damals nicht ganz 180 ha große Forst mit seinem Wildgehege erstmalig in einem lokalen Ausflugsführer als lohnendes Ausflugsziel erwähnt. Heute ist der Forst Klövensteen das größte grüne Naherholungsgebiet Altonas. Mit seinen 580 Hektar (weit über fünf Millionen Quadratmetern!) hat sich der Klövensteen in den vergangenen hundert Jahren im Rahmen der naturgemäßen Waldpflege und -entwicklung zusehends zu einem vielschichtigen, standortgerechten und naturnahen Erholungswald entfaltet. Nur etwa 18 Kilometer vom Stadtkern entfernt, bietet der Klövensteen eine vielseitige Ausstattung an Waldressourcen. Mit dem Wildgehege der Waldschule Klövensteen, dem Naturschutzgebiet Schnaakenmoor, dem Waldspielplatz am Klövensteenweg sowie mehreren gastronomischen Anlaufpunkten gehört der Klövensteen zu einem der abwechslungsreichsten Erholungswälder Hamburgs. Ein gepflegtes Netz von Wander- und Reitwegen lädt hier zur Bewegung in frischer Luft ein. Der Spielplatz am Eingang des Wildgeheges, die Gastronomie „Kleine Waldschänke“ gegenüber und eine ausreichende Anzahl von Parkplätzen runden dieses perfekte Hamburger Ausflugsziel ab.",
-        text: "Hier sämtliche Informationen, die den Wald beschreiben",
+        text: "Herzlich Willkommen auf den Seiten des Wildgehege im Klövensteen! Wir möchten Ihnen gerne das Wildgehege und unsere Tiere näher vorstellen.",
         img: "../images/wildgehegeklövensteen.jpg",
         position: {latitude: 53.596238, longitude: 9.7467131}
     },
@@ -60,7 +60,7 @@ const forestData = [
         id: 7,
         forest: "forest",
         name: "Schnaakenmoor",
-        text: "Hier sämtliche Informationen, die den Wald beschreiben",
+        text: "Das Schnaakenmoor, das als Naturschutzgebiet auch noch die Fläche des Groten Moors und die Spitzdorfer Moorflagen umfaßt, liegt mitten im schönen Hamburger Forstrevier Klövensteen",
 	    textlong: "Das Schnaakenmoor, das als Naturschutzgebiet auch noch die Fläche des Groten Moors und die Spitzdorfer Moorflagen umfaßt, liegt mitten im schönen Hamburger Forstrevier Klövensteen, und das ist im Westen der Hansestadt ein beliebtes Ziel für Ausflügler von Altona bis Wedel. Ursprünglich gehört der Wald aber dort gar nicht hin. Er stammt aus Aufforstungen aus dem 19. Jahrhundert. Einer der landschaftsverändernden menschlichen Eingriffe, die, wie die Geschichte zeigt, ihre Anfänge bereits im Mittelalter hatten. Bis dahin war das Naturschutzgebiet Teil einer einzigartigen Landschaft aus einem über 100 Kilometer langen gigantischen Binnendünenzug mit kleinflächig eingestreuten Mooren, nördlich der Elbe von Geesthacht über Blankenese, der Haseldorfer Marsch und Bielenberg bis zum heutigen Nord-Ostsee-Kanal.Sie ist eine sogenannte Sekundärvegetation, das heißt, die ursprünglichen Pflanzengesellschaften des einstigen Hochmoores und der dazwischenliegenden Dünen haben sich durch vielfältige und unterschiedliche Nutzungen seit dem Mittelalter grundlegend verändert. Im Naturschutzgebiet finden sich heute vielfältige Biotoptypen mit abwechslungsreicher Besiedelung durch größere Einheiten an Pflanzengesellschaften wie die des Schnabelriedes, der Seggen und Binsen, der Glocken- und Feuchtheiden mit Pfeifengrasbeständen. Auf ansteigendem Boden wachsen Birkenbruch und Stieleichenbirkenwald. Auf den offenen Sandböden haben sich Trockenrasen und Sandheiden entwickelt. Diese natürlich siedelnden Pflanzengesellschaften der Moorsenke und ihrer Randzonen sind umgeben von Forstkulturen des Waldreviers.",
         img: "../images/schnaakenmoor.jpg",
         position: {latitude: 53.6013323, longitude: 9.7629368}
@@ -70,7 +70,7 @@ const forestData = [
         forest: "forest",
         name: "Wohldorfer Wald",
 	    textlong: "Der Wohldorfer Wald besticht durch seinen Laubbaumbestand und ist der größte zusammenhängende Laubwald in Hamburg. Das Naturschutzgebiet hat eine Gesamtgröße von 278 Hektar und bildet im Nordosten Hamburgs ein 1800 Hektar großen Biotopverbund mit den Naturschutzgebieten Duvenstedter Brook, Hansdorfer Brook und Ammersbek-Niederung. Der Wohldorfer Wald ist das älteste Forstrevier Hamburgs und ist seit 1770 als Erholungsgebiet ausgewiesen. Die Stadt erwarb das Areal aber bereits im 13. Jahrhundert. Aufgrund des stolzen Alters des Forstes hat sich dort eine besondere Flora und Fauna entwickelt. Der abwechslungsreiche Baumbestand schlägt sich in unterschiedlichen Waldbildern nieder. Es gibt Auenwälder, in den Senken und Mulden Erlen- und Buchenwälder und auch Gebiete mit Eichen, Eschen und Ahornen. Die Landschaft ist durch die eiszeitlichen Endmoränen geprägt und entsprechend hügelig. In der Tierwelt des Wohldorfer Waldes finden sich unter anderem 14 verschiedene Fledermausarten sowie vier Käferarten aus der Kategorie Urwaldrelikt, die nur in besonders alten Wäldern vorkommen. Mit etwas Glück lassen sich dort auch Fischotter, Eisvögel, Waldschnepfen oder Schwarzspechte beobachten.",
-        text: "Hier sämtliche Informationen, die den Wald beschreiben",
+        text: "Ein Mix aus verschiedenen Waldbildern, Wiesen, Mooren und landwirtschaftlichen Nutzflächen macht die Wanderung durch den hügeligen Wohldorfer Wald und den Duvenstedter Brook im Nordosten Hamburgs zu einem sehr abwechslungsreichen Erlebnis.",
         img: "../images/wohldorferwald.jpg",
         position: {latitude: 53.7053572, longitude: 10.1463187}
     },

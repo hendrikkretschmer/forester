@@ -3,7 +3,6 @@ import './SignupSuccess.css';
 import Header from './Header';
 import welcome__image from '../images/Forester_SignupSuccess.jpg';
 import Footer from './Footer';
-import forester_logo from '../icons/logo.svg';
 import {Link} from 'react-router-dom';
 
 function SignupSuccess() {
