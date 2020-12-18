@@ -95,7 +95,8 @@ const SignupForm = ({submitForm}) => {
                 </div>
 
             <div className="submit__container">
-            <Link to="/"><button 
+            <Link to="/signupsuccess">
+                <button 
                 className="form__input--button"
                 type="submit">
                 Sign Up

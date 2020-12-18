@@ -169,7 +169,7 @@ function Treasurepage() {
       </div>
       
     </div>
-    
+    <Footer />
     </div>
    
   );

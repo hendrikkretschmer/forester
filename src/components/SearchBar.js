@@ -1,6 +1,7 @@
 import React from 'react';
 import './SearchBar.css';
 import explore_icon_25x25 from '../icons/explore_icon_25x25.svg';
+import { Link } from 'react-router-dom';
 
 function SearchBar() {
 
@@ -21,13 +22,18 @@ function SearchBar() {
                 <label className="label__title">Set location</label>
                 </div>
 
-                <input type="text" placeholder="type in your current position" className="input__field">
+                <input type="text" placeholder="type in your current position" className="input__field" />
                 
-                </input>
+        
                 </div>
+                
                 
 
             </div>
+            <Link to="/explore"><div className="input__button--explore">
+                    <button className="button__explore">Let's explore!</button>
+            </div>
+            </Link>
             
         </div>
     )

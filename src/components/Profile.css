@@ -136,3 +136,17 @@ margin-top: 0px;
     justify-content: flex-start;
     flex-direction: row;
 }
+
+
+.activities__list {
+    margin: 0px;
+    padding-left: 30px;
+    line-height: 2;
+}
+
+.activities__list--treasures {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    line-height: 1.5;
+}

@@ -2,14 +2,20 @@ import React, {useState, useEffect} from 'react';
 import './Forestpage.css';
 import arrow_left from '../images/arrow_icon_left_black.svg';
 import arrow_right from '../images/arrow_icon_right_black.svg';
-import treeicon2 from '../icons/treasureicons/treeicon2.svg';
 import bookmark_darkgreen1 from '../icons/treasureicons/bookmark_darkgreen1.svg';
 import forestData from './ForestData';
 import exploreicon from '../icons/explore_icon_25x25.svg';
+import treasureicon from '../icons/treasure_icon_25x25.svg';
 import quotation from '../icons/quotation-icons/quotation4.svg';
 import { useParams } from 'react-router-dom';
-
-
+import { Link } from 'react-router-dom';
+import Header from './Header';
+import Footer from './Footer';
+import pilzicon1 from '../icons/treasureicons/pilzicon1.svg';
+import animalicon1 from '../icons/treasureicons/animalicon1.svg';
+import herbsicon1 from '../icons/treasureicons/herbsicon1.svg';
+import snackicon1 from '../icons/treasureicons/snackicon1.svg';
+import treeicon1 from '../icons/treasureicons/treeicon1.svg';
 
 function Forestpage() {
   const [index, setIndex] = useState(0);
@@ -49,7 +55,7 @@ function Forestpage() {
 
   return (
     <div title="HEADER and FOOTER WRAPPER">
-    
+    <Header />
     <div className="main__wrapper">
       
       <div className="treasure__card--wrapper">
@@ -92,15 +98,16 @@ function Forestpage() {
           </div>*/}
 
                 <div className="bookmark__icon--wrapper">
-                <button className="bookmark__icon" width="5" height="5">
+                <Link to="/profile"><button className="bookmark__icon" width="5" height="5">
                   <img src={bookmark_darkgreen1} alt="icon" width="20" height="20"/>
-                </button>
+                </button></Link>
                 </div>
                 
+                
                 <div className="bookmark__icon--wrapper">
-                <button className="bookmark__icon" width="5" height="5">
-                  <img src={exploreicon} alt="icon" width="30" height="30"/>
-                </button>
+                <Link to="/treasures"><button className="bookmark__icon" width="5" height="5">
+                  <img src={treasureicon} alt="icon" width="30" height="30"/>
+                </button></Link>
                 </div>
                 
                 {/*<p className="forest__text">{forest[index].text}</p>*/}
@@ -117,21 +124,35 @@ function Forestpage() {
                   <img src={quotation} className="quotation" alt="quotation"/>
                   </div>
 
-                  <h5 className="paragraph__info--headline5">{forest[index].info}</h5>
+                  <h5 className="paragraph__info--headline5">{forest[index].text}</h5>
                   </div>
 
-                <h5 className="paragraph__info--merkmale">Merkmale</h5>
+                <h5 className="paragraph__info--merkmale">Informationen</h5>
                 
-                <ul className="paragraph__listitems">
-                <li className="paragraph__listitem--hut"><strong>Hut:&nbsp;</strong> {forest[index].Hut}</li>
-                <li className="paragraph__listitem--hutfarbe"><strong>Hutfarbe:&nbsp;</strong> {forest[index].Hutfarbe}</li>
-                <li className="paragraph__listitem--stiel"><strong>Stiel:&nbsp;</strong>{forest[index].Stiel}</li>
-                <li className="paragraph__listitem--wuchshöhe"><strong>Wuchshöhe:&nbsp;</strong>{forest[index].Wuchshöhe}</li>
-                <li className="paragraph__listitem--fleisch"><strong>Fleisch:&nbsp;</strong>{forest[index].Fleisch}</li>
-                <li className="paragraph__listitem--fruchtkörper"><strong>Fruchtkörper:&nbsp;</strong>{forest[index].Fruchtkörper}</li>
-                <li className="paragraph__listitem--besonderheit"><strong>Besonderheit:&nbsp;</strong>{forest[index].Besonderheit}</li>
-                <li className="paragraph__listitem--verweckslungsgefahr"><strong>Verwechslung:&nbsp;</strong>{forest[index].Verwechslungsgefahr}</li>
-              </ul>
+                <div className="paragraph__textlong--wrapper">
+                <p className="paragraph__textlong">{forest[index].textlong}</p>
+                </div>
+                
+                <div className="paragraph__treasure--links">
+                
+                
+              <div className="paragraph__icon--wrapper">
+              <Link to="/treasures"><img src={pilzicon1} className="quotation" alt="treasureicon"/></Link>
+                  </div>
+                  
+                  <div className="paragraph__icon--wrapper">
+                  <Link to="/treasures"><img src={animalicon1} className="quotation" alt="treasureicon"/></Link>
+                  </div>
+                  <div className="paragraph__icon--wrapper">
+                  <Link to="/treasures"><img src={herbsicon1} className="quotation" alt="treasureicon"/></Link>
+                  </div>
+                  <div className="paragraph__icon--wrapper">
+                  <Link to="/treasures"><img src={snackicon1} className="quotation" alt="treasureicon"/></Link>
+                  </div>
+                  <div className="paragraph__icon--wrapper">
+                  <Link to="/treasures"><img src={treeicon1} className="quotation" alt="treasureicon"/></Link>
+                  </div>
+                </div>
               
               </div>
               {/*<h2>Index: {index}</h2> <hr className="trennlinie"></hr>*/ }
@@ -166,7 +187,7 @@ function Forestpage() {
       </div>
       
     </div>
-    
+    <Footer />
     </div>
    
   );

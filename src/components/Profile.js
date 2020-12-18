@@ -31,8 +31,19 @@ function Profile() {
                 <img src={treeicon} width="25" height="25" className="bookmark__profile" alt="bookmark__profile" />
                 </div>
                 <h3 className="profile__data--headline3">Activities</h3>
-                
                 </div>
+
+                <ul className="activities__list">
+                    <li>Forests visited: 13</li>
+                    <li>Treasures found: 6</li>
+                    <ul className="activities__list--treasures">
+                        <li>Fliegenpilz</li>
+                        <li>Waldegerling</li>
+                        <li>Birkenröhrling</li>
+                        <li>Bucheckern</li>
+                        <li>Sauerklee</li>
+                    </ul>
+                </ul>
 
 
                 <div className="profile__data--items">
